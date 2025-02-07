@@ -1,0 +1,283 @@
+/* Aquí encontramos todos aquellos elementos que no son globales pero que forman parte del index, es decir aqui tenemos: EL HERO y LA SECCIÓN CON LAS CUATRO TARJETAS DE PROYECTOS así como sus respectivos mediaqueries */
+
+/* __________________
+        HERO 
+ ____________________ */
+
+.Hero {
+  display: flex;
+  flex-direction: column;
+  padding: 4rem var(--padding);
+  background-color: rgb(243, 243, 255);
+}
+
+.Hero-titulo {
+  word-wrap: break-word;
+  font-size: 2rem;
+}
+
+.Hero-subtitulo {
+  padding: 2rem 0rem;
+  font-size: 1.125rem;
+  width: 90%;
+}
+
+.Hero-arrow {
+  font-size: 1.5em;
+  color: var(--color-gris);
+}
+
+/* ______________________
+       CARDS EN GENERAL 
+ ________________________ */
+
+.Proyectos {
+  padding: 3rem var(--padding);
+}
+
+.Proyectos-title {
+  font-size: var(--font-size-lead);
+  margin-bottom: var(--padding);
+  letter-spacing: var(--letter-spacing);
+  color: var(--color-gris);
+}
+
+.Proyectos-grid {
+  margin: auto  0 0 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2.5rem;
+}
+
+.Proyecto {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-yellow);
+  border-radius: var(--border-radius-img);
+  transition: filter 0.3s ease, transform 0.3s ease;
+}
+
+.Proyecto:hover {
+ filter: brightness(1.3);
+ transform: scale(1.03);
+}
+
+.Proyecto-imgContainer {
+  display: flex;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  width: 100%;
+
+}
+
+.Proyecto-img {
+  width: 100%;
+  height: auto;
+  border-radius: var(--border-radius-img) var(--border-radius-img) 0 0;
+  filter: brightness();
+}
+
+
+.Proyecto-title {
+  font-size: var(--font-size-heading-md);
+  font-weight: bold;
+  letter-spacing: var(--letter-spacing);
+}
+
+.Proyecto-texts {
+  height: auto;
+  margin: 1rem 1.25rem;
+}
+
+.Proyecto-subtit {
+  font-size: var(--font-size-parrafo);
+  margin: 0.5rem 0rem 0.5rem;
+  word-wrap: break-word;
+}
+
+.Proyecto-tags {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+}
+
+.Proyecto-tag {
+  border-radius: 1.4rem;
+  padding: 0.5rem 0.8rem;
+  margin: 0.5rem  0 0 0;
+  font-size: 0.8rem;
+}
+
+/* ___________________________  
+       CARDS INDIVIDUALES      
+ ___________________________ */
+
+ /* Pd. Único lugar donde no se han aplicado custom properties para el color */
+
+/* Proyecto STEEZ */
+.Proyecto--steez {
+  background-color: #1e1e1e;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--steez {
+  background-color: #464646;
+}
+
+/* Proyecto BRILLO */
+.Proyecto--brillo {
+  background-color:#21300e;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--brillo {
+  background-color:#41522E;
+}
+
+/* Proyecto FESTIVAL */
+.Proyecto--festival {
+  background-color: #0418d8; 
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--festival {
+  background-color: rgb(52, 72, 255);
+}
+
+/* Proyecto LUGAR */
+.Proyecto--lugar {
+  background-color: #5245aa;
+  color: var(--color-secondary);
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--lugar {
+  background-color: rgb(217, 212, 255);
+  color: #5245aa;
+}
+
+/* ________________________  
+         Media Queries    
+ ________________________ */
+
+/* MÓVILES GRANDES */
+@media (min-width: 481px) and (max-width: 767px) {
+  .Hero {
+    padding: 4rem 1.8rem;
+  }
+
+  .Hero-subtitulo {
+    font-size: 1.4rem;
+    width: 80%;
+  }
+
+  .Proyectos {
+    padding: 3rem 6rem;
+  }
+}
+
+/* TABLETS */
+@media (min-width: 768px) and (max-width: 1023px) {
+  .Hero {
+    padding: 4rem 2rem;
+  }
+
+  .Hero-titulo {
+    font-size: 2.2rem;
+  }
+
+  .Hero-subtitulo {
+    font-size: 1.4rem;
+    max-width: 70%;
+  }
+
+  .Proyectos {
+    padding: 4rem 6rem;
+  }
+
+  .Proyectos-grid {
+    gap: 2.4rem;
+  }
+
+  .Proyecto-subtit {
+    max-width: 90%;
+  }
+
+  .Proyecto-tag {
+    font-size: 0.9rem;
+  }
+}
+
+/* DESKTOP MEDIO */
+@media (min-width: 1024px) and (max-width: 1440px) {
+  .Hero {
+    padding: 4rem 2.4rem;
+    height: auto;
+  }
+  /* H1 */
+  .Hero-titulo {
+    font-size: 2.8rem;
+    max-width: 90%;
+  }
+
+  .Hero-subtitulo {
+    font-size: 1.8rem;
+    max-width: 70%;
+  }
+
+  .Proyectos {
+    padding: 3.2rem 2rem 4rem;
+    gap: 2.5rem;
+  }
+
+  .Proyectos-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .Proyecto-tags {
+    gap: 1rem;
+  }
+
+  .Proyecto-tag {
+    font-size: 1rem;
+  }
+}
+
+/* DESKTOP GRANDE */
+
+@media (min-width: 1441px) {
+  .Hero {
+    padding: 4rem 2.4rem;
+    height: auto;
+  }
+  /* H1 */
+  .Hero-titulo {
+    font-size: 2.8rem;
+    max-width: 90%;
+  }
+
+  .Hero-subtitulo {
+    font-size: 1.8rem;
+    max-width: 40%;
+  }
+
+  .Proyectos {
+    padding: 3.2rem 2rem 4rem;
+    gap: 2.5rem;
+  }
+
+  .Proyectos-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+  }
+
+  .Proyecto-tags {
+    gap: 1rem;
+  }
+  .Proyecto-tag {
+    font-size: 1rem;
+  }
+}

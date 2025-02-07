@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información | Begoña Cz</title>
+    <meta name="description" content="Te cuento sobre mí: mis habilidades y aprendizajes como diseñadora digital." >
+    <meta name="keywords" content="Información, Creativa, Diseñadora, Habilidades, Aprendizajes">
+    <meta name="author" content="Begoña Cardo" >
+    <meta name="copyright" content="© Begoña Cardo 2025. Todos los derechos reservados.">
+
+    <link rel="icon" type="image/webp" href="./img/favicon.webp" sizes="16x16">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/about.css">
+    <script src="./js/global.js" defer></script>
+    <script src="./js/about.js" defer></script>
+  </head>
+
+  <!-- Página con Informacion sobre mi (quién soy, habilidades, aprendizajes) -->
+  <body class="Body">
+    <!-- HEADER -->
+    <header class="Header">
+      <nav class="Header-nav">
+        <div class="Header-items">
+          <a href="index.html" title="Volver al inicio" class="Header-logo">
+            <picture>
+              <img
+                class="Logo"
+                id="Logotipo"
+                src="img/logo.webp"
+                alt="logotipo en negro, una b con letras góticas"
+                loading="lazy"
+              >
+            </picture>
+          </a>
+          <button id="Header-boton">
+            <span class="Header-icon material-symbols-outlined Acento">add</span>
+          </button>
+        </div>
+
+        <ul class="Header-enlaces" id="Header-listaEnlaces">
+          <li>
+            <a href="index.html#SeccionProyectos" title="Ir a la sección de proyectos" class="Header-link u-acento Acento"
+              >Proyectos</a
+            >
+          </li>
+          <li><a href="about.html" title="Información sobre mi" class="Header-link Acento">Información</a></li>
+          <li><a
+            href="mailto:begodrac@gmail.com"
+            title="Enviar un mail"
+            target="_blank"
+            class="Header-link u-acento Acento"
+            rel="noopener noreferrer"
+            >Email  <span class="material-symbols-outlined Flecha-blank"> north_east </span></a></li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+
+    <main class="Main">
+      <section class="About">
+        <!-- Mi imagen -->
+        <div class="About-imgContainer">
+          
+            <img
+              class="About-img"
+              src="./img/about.webp"
+              alt="retrato chica leyendo, fondo minimalista"
+              loading="lazy"
+            >
+          
+        </div>
+
+        <!-- Contenido escrito -->
+        <div class="About-content">
+          <!-- Intro - Sobre mi -->
+          <section class="About-intro">
+            <h1 class="Text-headingLead">SOBRE MÍ</h1>
+            <p class="Text-parrafo Text-parrafo--about">
+                El diseño despertó mi curiosidad. Lo que comenzó en mi infancia con tipografías alocadas en Paint y WordArt, se convirtió en una pasión por crear experiencias visuales y funcionales.
+            </p>
+
+            <p class="Text-parrafo Text-parrafo--about">
+                Al crecer y explorar Internet, me hice una pregunta: ¿por qué algunas webs eran tan frustrantes de usar? En la universidad descubrí el diseño UX/UI y entendí que ahí estaba la clave. Se trata de comprender a las personas, anticipar sus necesidades y convertir la complejidad en experiencias simples. Me fascinó por completo. 
+            </p>
+
+            <p class="Text-parrafo Text-parrafo--about">
+                Hoy combino creatividad, diseño visual y estrategia para dar vida a productos digitales intuitivos y accesibles. Desde la investigación hasta el diseño final, mi objetivo es claro: mejorar la experiencia del usuario y crear entornos digitales que tengan un impacto positivo en las personas.
+            </p>
+
+            <p class="Text-parrafo">
+            ¿Hablamos? Estoy a un mensaje de distancia.
+             </p>
+          </section>
+
+          <!-- Mis skills -->
+          <section class="About-skills">
+            <h2 class="Text-headingLead">HABILIDADES</h2>
+
+            <div class="Acordeon">
+              <!-- Diseño visual -->
+              <div class="Acordeon-bloque">
+                <div class="Acordeon-boton Acento" id="Acordeon-btn">
+                  <h3 class="Text-headingMedium">Diseño visual ✨</h3>
+                  <span class="material-symbols-outlined Acordeon-icon" id="Acordeon-icono"> add </span>
+                </div>
+
+                <div class="Acordeon-content isOpen" id="Acordeon-contenido">
+                  <p class="Text-parrafo">
+                    Participar en este proceso es una de las partes que más disfruto. Crear una identidad visual sólida, coherente y con propósito tiene el poder de hacer que una marca se destaque y por tanto, sea recordada por el usuario.
+                  </p>
+
+                  <p class="Text-parrafo">
+                    <strong>Habilidades clave: </strong>Identidad visual, Design System, Dirección de arte, Tipografía, Lettering, Color, Creación
+                    de iconos, Diseño de logo, Ilustración digital, Fotografía creativa.
+                  </p>
+                </div>
+              </div>
+
+              <!-- UX/UI -->
+              <div class="Acordeon-bloque">
+                <div class="Acordeon-boton Acento" id="Acordeon-btn">
+                  <h3 class="Text-headingMedium">UX/UI 🫶🏼</h3>
+                  <span class="material-symbols-outlined Acordeon-icon" id="Acordeon-icono">add</span>
+                </div>
+
+                <div class="Acordeon-content" id="Acordeon-contenido">
+                  <p class="Text-parrafo">
+                    Mi objetivo es crear entornos digitales: intuitivos, atractivos y adaptados al usuario. Para lograrlo, es clave realizar un análisis profundo, investigando el mercado y detectando las claves que guiarán las decisiones de diseño, marketing y accesibilidad.  
+                  </p>
+
+                  <p class="Text-parrafo">
+                    <strong>Habilidades clave: </strong>
+                    Entrevistas, User personas, A/B tests. Arquitectura de la información, Diseño de la interacción, Diseño inclusivo. Prototipado, Prototipado interactivo, Test de usabilidad. Diseño de interfaz. Responsive Design. UI kits. 
+                </p>
+                </div>
+              </div>
+
+              <!-- Diseño Web -->
+              <div class="Acordeon-bloque">
+                <div class="Acordeon-boton Acento" id="Acordeon-btn">
+                  <h3 class="Text-headingMedium">Diseño web 🖥️</h3>
+                  <span class="material-symbols-outlined Acordeon-icon" id="Acordeon-icono"> add </span>
+                </div>
+
+                <div class="Acordeon-content" id="Acordeon-contenido">
+                  <p class="Text-parrafo">
+                    Contenta de poder crear páginas web organizadas y accesibles, adaptadas a distintos tipos de
+                    pantalla, fieles al diseño de marca y dándoles vida gracias a las interacciones.
+                  </p>
+
+                  <p class="Text-parrafo">
+                    <strong>Habilidades clave: </strong>HTML5, CSS3, Javascript. Semántica web. Optimización SEO. Diseño responsive, Mobile-first, Flex-box, Mediaqueries. Interacciones dinámicas. BEM, SUITCSS, baja especificidad.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Herramientas -->
+              <div class="Acordeon-bloque">
+                <div class="Acordeon-boton Acento" id="Acordeon-btn">
+                  <h3 class="Text-headingMedium">Herramientas 🔧</h3>
+                  <span class="material-symbols-outlined Acordeon-icon" id="Acordeon-icono"> add </span>
+                </div>
+
+                <div class="Acordeon-content" id="Acordeon-contenido">
+                  <p class="Text-parrafo">
+                    Mis herramientas de trabajo me ayudan en mis procesos tanto personales como en equipo. Me apoyo en
+                    aplicaciones y programas que permiten elevar los resultados a un nuevo nivel.
+                  </p>
+
+                  <p class="Text-parrafo">
+                    <strong>Habilidades clave: </strong>Figma, Figjam. Miro. Adobe Suite (Photoshop, Illustrator,
+                    Indesign, XD, Premiere y After Effects). Inteligencia generativa, Chat GPT.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Mis aprendizajes -->
+          <section class="About-learnings">
+            <h2 class="Text-headingLead">APRENDIZAJES</h2>
+
+            <p class="Text-parrafo Text-parrafo--about">
+                <strong>Máster en Diseño Web y UX/UI </strong>· Escuela CEI
+             </p>
+ 
+             <p class="Text-parrafo Text-parrafo--about">
+                El aprendizaje es un viaje constante. He completado la primera parte de mi máster con el módulo de Diseño Web, adquiriendo habilidades de desarrollo front-end con HTML5, CSS3 y JavaScript. Sumergirme en código me ha permitido entender mejor las posibilidades a la hora de dar vida a mis diseños.
+             </p>
+
+             
+             <p class="Text-parrafo Text-parrafo--about">
+Actualmente, estoy profundizando en el diseño UX/UI, explorando principios de usabilidad, accesibilidad y diseño visual. También me sumerjo en procesos de investigación, análisis de usuarios y diseño centrado en ellos. Uno de mis objetivos de aprendizaje es dominar Figma avanzado para crear prototipos interactivos de alta fidelidad y alto impacto. 
+             </p>
+
+            <p class="Text-parrafo Text-parrafo--about">
+               <strong>Grado en Diseño y Tecnologías Creativas</strong>· UPV Valencia
+            </p>
+
+            <p class="Text-parrafo Text-parrafo--about">
+                Aprender sobre diferentes áreas del diseño y la creatividad ha sido una experiencia enriquecedora. Desde dirección de arte en proyectos de diseño gráfico hasta UI/UX, que terminó por encantarme. También exploramos ilustración narrativa, storytelling, marketing digital, publicidad, fotografía, vídeo y motion graphics.
+            </p>
+            <p class="Text-parrafo Text-parrafo--about">
+                Esta experiencia amplió mi perspectiva creativa y me dio las herramientas para aportar una visión estratégica y multidisciplinar a cualquier equipo de trabajo. Me encanta colaborar y aprender de diferentes disciplinas para crear soluciones más completas e innovadoras.
+            </p>
+          </section>
+        </div>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+  
+    <footer class="Footer">
+      <div class="Footer-mainContainer">
+        <div class="Footer-textContainer">
+          <div class="Footer-lead">
+            <div class="Circle"></div>
+            <p class="Footer-leadText">DISPONIBLE</p>
+          </div>
+          <h2 class="Footer-h2">Estoy a un mensaje de distancia</h2>
+        </div>
+
+        <div class="Footer-enlaces">
+          <a
+          href="https://www.linkedin.com/public-profile/settings?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_self_edit_contact-info%3Bx3nh%2FYsjS1SBpBZBsb62KQ%3D%3D"
+          title="Enlace a mi Linkedin"
+          class="Footer-linkedin Acento"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <p class="Footer-link">Linkedin</p>
+          <span class="material-symbols-outlined Flecha-blank"> north_east </span>
+        </a>
+        <a
+          href="mailto:begodrac@gmail.com"
+          title="Enviar un mail"
+          target="_blank"
+          class="Footer-link Acento"
+          rel="noopener noreferrer"
+          >begodrac@gmail.com</a
+        >
+        </div>
+      </div>
+
+      <span class="Credits">
+        © 2025 Begoña Cardo <br >
+        Diseñada con pasión mientras bebía té matcha
+      </span>
+    </footer>
+  </body>
+</html>
