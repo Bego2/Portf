@@ -30,6 +30,7 @@ Tb encontramos el Root y Reset que han sido claves para dar estilos generales a 
   --font-size-large: 2rem;
 
   --padding: 1.5rem;
+  --padding-about: 1rem;
   --letter-spacing: 0.06rem;
   --border-radius-img: 1.125rem;
   --border-radius-icon: 0.6rem;
@@ -122,7 +123,6 @@ svg {
   font-size: var(--font-size-lead);
   letter-spacing: var(--letter-spacing);
   margin-bottom: 0.5rem;
-  color: var(--color-gris);
 }
 
 /* Títulos medianos */
@@ -154,7 +154,7 @@ svg {
 
 .Header-enlaces {
   display: none;
-  color: var(--color-gris);
+  color: var(--color-primary);
   font-weight: bold;
   letter-spacing: var(--letter-spacing);
 }
@@ -358,7 +358,7 @@ svg {
 @media (min-width: 1024px) and (max-width: 1440px) {
   :root {
     --font-size-parrafo: 1.125rem;
-    --font-size-lead: 1.25rem;
+    --font-size-lead: 1.125rem;
     --font-size-heading-md: 1.6rem;
     --font-size-large: 2rem;
     --letter-spacing: 0.085rem;
@@ -420,7 +420,7 @@ svg {
 @media (min-width: 1441px) {
   :root {
     --font-size-parrafo: 1.25rem;
-    --font-size-lead: 1.3rem;
+    --font-size-lead: 1rem;
     --font-size-heading-md: 1.8rem;
     --font-size-large: 2.2rem;
     --padding: 3rem;

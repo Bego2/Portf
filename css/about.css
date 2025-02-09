@@ -26,7 +26,7 @@ y a la derecha varias secciones: sobre mi, habilidades (incluye un acordeon) y a
 }
 
 .Text-parrafo--about {
-  margin-bottom: var(--padding);
+  margin-bottom: var(--padding-about);
 }
 
 /* Habilidades y acordeon */
@@ -61,7 +61,7 @@ y a la derecha varias secciones: sobre mi, habilidades (incluye un acordeon) y a
 /* usOpen afecta a la clase .Acordeon-content */
 .isOpen {
   height: auto;
-  padding: var(--padding) 0rem;
+  padding: var(--padding-about) 0rem var(--padding);
 }
 
 /* Aprendizajes */
