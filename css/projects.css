@@ -7,8 +7,6 @@
 
 Tenemos al final del todo una sección con los mediaqueries*/
 
-
-
 /* ___________________________  
        PROJECT HEADER         
   ___________________________ */
@@ -95,7 +93,7 @@ Tenemos al final del todo una sección con los mediaqueries*/
 /* ____________________________________  
                 CREDITOS              
    _____________________________________*/
-   
+
 .Creditos {
   display: flex;
   flex-direction: column;
@@ -127,7 +125,7 @@ Tenemos al final del todo una sección con los mediaqueries*/
   height: auto;
   padding: 3rem var(--padding);
   color: var(--color-secondary);
-  background-color: var(--color-primary);
+  background-color: #cbcacd;
 }
 
 .Aside-container {
@@ -150,7 +148,6 @@ Tenemos al final del todo una sección con los mediaqueries*/
   color: var(--color-primary);
   filter: brightness(1.3);
   transform: scale(1.03);
-  
 }
 
 .Aside-text {
@@ -163,7 +160,6 @@ Tenemos al final del todo una sección con los mediaqueries*/
 
 /* TABLETS */
 @media (min-width: 768px) and (max-width: 1023px) {
-
   .Section-textGroup {
     width: 40%;
     padding-right: var(--padding);
@@ -205,14 +201,13 @@ Tenemos al final del todo una sección con los mediaqueries*/
 
 /* DESKTOP MEDIO */
 @media (min-width: 1024px) and (max-width: 1440px) {
- 
   .Section-textGroup {
     width: 40%;
     padding-right: 2rem;
   }
 
   .ProjectHeader-description {
-    width: 80%;
+    max-width: 75%;
   }
 
   .Section-imgContainer {
@@ -241,8 +236,8 @@ Tenemos al final del todo una sección con los mediaqueries*/
 
   .Creditos-titulo {
     font-size: var(--font-size-heading-md);
-    width: 20%;
-    line-height: 1.6rem;
+    width: 30%;
+    line-height: 2rem;
   }
 
   .Creditos-links {
@@ -266,8 +261,17 @@ Tenemos al final del todo una sección con los mediaqueries*/
 /* DESKTOP GRANDE */
 @media (min-width: 1441px) {
 
+  .ProjectHeader-cabecera {
+    padding-bottom: 2rem;
+  }
+  
+  .ProjectHeader-imgContainer {
+    width: 4rem;
+    height: 4rem;
+  } 
+
   .Section-textGroup {
-    width: 40%;
+    width: 60%;
     padding-right: 6rem;
   }
 
@@ -275,6 +279,14 @@ Tenemos al final del todo una sección con los mediaqueries*/
     width: 80%;
   }
 
+  .SectionClave {
+    padding: var(--padding);
+  }
+
+.ProjectHeader-description {
+  font-size: 2.2em;
+  line-height: 2.6rem;
+} 
   .Section-textContainer {
     display: flex;
     flex-direction: row;
@@ -294,10 +306,12 @@ Tenemos al final del todo una sección con los mediaqueries*/
   .Creditos {
     display: flex;
     flex-direction: row;
+    gap: 0;
   }
 
   .Creditos-titulo {
     width: 20%;
+    line-height: 2.5rem;
   }
 
   .Creditos-links {
@@ -307,11 +321,18 @@ Tenemos al final del todo una sección con los mediaqueries*/
     margin-left: 6rem;
   }
 
+  .Creditos-link {
+    font-size: var(--font-size-heading-md);
+  }
+
   .Aside {
     display: flex;
     flex-direction: row;
     padding: 7rem 9rem;
     gap: 5rem;
+  }
+  .Aside-container {
+    height: 22rem;
   }
 
   .Aside-festival {

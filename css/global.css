@@ -17,9 +17,8 @@ Tb encontramos el Root y Reset que han sido claves para dar estilos generales a 
 :root {
   --color-primary: #11103d;
   --color-secondary: #fffff9;
-  --color-yellow: #fffec9;
   --color-gris: #4E4E56;
-
+--color-violet: #eceaff;
   --color-acento: #5f4aff;
   --color-gris-claro: #f5f5f9;
 
@@ -122,7 +121,7 @@ svg {
 .Text-headingLead {
   font-size: var(--font-size-lead);
   letter-spacing: var(--letter-spacing);
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
 /* Títulos medianos */
@@ -359,7 +358,7 @@ svg {
   :root {
     --font-size-parrafo: 1.125rem;
     --font-size-lead: 1.125rem;
-    --font-size-heading-md: 1.6rem;
+    --font-size-heading-md: 1.5rem;
     --font-size-large: 2rem;
     --letter-spacing: 0.085rem;
     --padding: 1.8rem;
@@ -419,11 +418,16 @@ svg {
 /* DESKTOP GRANDE */
 @media (min-width: 1441px) {
   :root {
-    --font-size-parrafo: 1.25rem;
-    --font-size-lead: 1rem;
-    --font-size-heading-md: 1.8rem;
-    --font-size-large: 2.2rem;
-    --padding: 3rem;
+    --font-size-parrafo: 1.5rem;
+    --font-size-lead: 1.25rem;
+    --font-size-heading-md: 2.2rem;
+    --font-size-large: 3rem;
+    --padding: 4rem;
+  }
+
+  .Logo {
+    width: 3rem;
+    height: 3rem;
   }
 
   .Header-nav {
@@ -431,15 +435,15 @@ svg {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 1.3rem;
+    padding: 3rem;
   }
 
   .Header-enlaces {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 1.9rem;
-    font-size: 1.5rem;
+    gap: 2.5rem;    
+    font-size: 1.7rem;
   }
 
   /* isActive se aplica a Header-enlaces */
@@ -451,6 +455,11 @@ svg {
 
   .Header-icon {
     display: none;
+  }
+
+  .Footer {
+    padding: var(--padding);
+    height: auto;
   }
 
   .Footer-mainContainer {
