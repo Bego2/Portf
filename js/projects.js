@@ -51,6 +51,30 @@ let proyectos = [
   },
 
   {
+    id: 2,
+    icono: "./img/festival-iconotitulo.svg",
+    titulo: "Item",
+    alt: "sobre fondo azul, una espiral blanca",
+    descripcion: "Item es un festival de motion design dirigido a estudiantes y profesionales del sector. Diseñé la interfaz tanto para la web como para la app. La web gestiona la venta de entradas e informa sobre el evento, mientras que la app guía a los asistentes durante el festival.",
+
+    heading1: "Soluciones nicho para un nicho de diseñadores",
+    text1: "La comunicación gráfica está pensada específicamente para el público de Item: los motion designers. Para el diseño del festival, tomé como referencia los softwares de motion graphics, integrando símbolos, jerarquías y elementos de interacción inspirados en estas herramientas.",
+    img1: "./img/festival-desktop.webp",
+    alt1: "diseños web para la home y la página de información sobre el festival",
+
+    heading2: "Dispositivos diferentes, objetivos distintos",
+    text2: "La web del festival permite acceder al programa, consultar el mapa del recinto y obtener información clave. En cambio, la app está diseñada para que los asistentes gestionen su acceso al evento, revisen sus inscripciones o se apunten a nuevas actividades.",
+    img2: "./img/festival-dispositivos.webp",
+    alt2: "diseños web adaptado a ipad y varios diseños de la app",
+
+    heading3: "Diseño centrado en el usuario",
+    text3: "Un estudio previo del público asistente fue esencial para definir la mejor propuesta en web y app. Al analizar sus necesidades, adapté la experiencia en cada dispositivo. Tuve que equilibrar funcionalidad con una interacción más arriesgada y experimental.",
+    img3: "./img/festival-dcu.webp",
+    alt3: "datos de estudio del usuario principal que asistiría al evento",
+    imgaside: "./img/thumbnail-festival.webp",
+  },
+
+  {
     id: 3,
     icono: "./img/brillo-iconotitulo.svg",
     titulo: "Brillo",
@@ -81,30 +105,7 @@ let proyectos = [
 
   },
 
-  {
-    id: 2,
-    icono: "./img/festival-iconotitulo.svg",
-    titulo: "Item",
-    alt: "sobre fondo azul, una espiral blanca",
-    descripcion: "Item es un festival de motion design dirigido a estudiantes y profesionales del sector. Diseñé la interfaz tanto para la web como para la app. La web gestiona la venta de entradas e informa sobre el evento, mientras que la app guía a los asistentes durante el festival.",
-
-    heading1: "Soluciones nicho para un nicho de diseñadores",
-    text1: "La comunicación gráfica está pensada específicamente para el público de Item: los motion designers. Para el diseño del festival, tomé como referencia los softwares de motion graphics, integrando símbolos, jerarquías y elementos de interacción inspirados en estas herramientas.",
-    img1: "./img/festival-desktop.webp",
-    alt1: "diseños web para la home y la página de información sobre el festival",
-
-    heading2: "Dispositivos diferentes, objetivos distintos",
-    text2: "La web del festival permite acceder al programa, consultar el mapa del recinto y obtener información clave. En cambio, la app está diseñada para que los asistentes gestionen su acceso al evento, revisen sus inscripciones o se apunten a nuevas actividades.",
-    img2: "./img/festival-dispositivos.webp",
-    alt2: "diseños web adaptado a ipad y varios diseños de la app",
-
-    heading3: "Diseño centrado en el usuario",
-    text3: "Un estudio previo del público asistente fue esencial para definir la mejor propuesta en web y app. Al analizar sus necesidades, adapté la experiencia en cada dispositivo. Tuve que equilibrar funcionalidad con una interacción más arriesgada y experimental.",
-    img3: "./img/festival-dcu.webp",
-    alt3: "datos de estudio del usuario principal que asistiría al evento",
-    imgaside: "./img/thumbnail-festival.webp",
-  },
-
+ 
   {
     id: 4,
     icono: "./img/lugar-iconotitulo.svg",
@@ -145,14 +146,14 @@ function mostrarProyecto() {//2
 
 /* PROYECTOS pt2. Esta condicional evalúa si se encontró el proyecto, si lo encontró mostrará en pantalla su inner html (gracias a su id y sus template strings puede encontrar que valores imprimir en pantalla). Si no lo encontró, mostrará un mensaje tb con inner html donde lo comunicará
 
-1. Guardamos actualId que ha sido obtenido gracias a .indexOf 
+1. Guardamos actualId que ha sido obtenido gracias a .findIndex 
 2. Proyecto previo: gracias a restar 1 al índice actualId || si ve que no hay proyecto anterior, toma el ultimo de la lista proyectos 
 3. Proyecto siguiente: lo va a obtener sumando 1 al indice actual || si no hay coge el primer proyecto de la lista proyectos
 4. Después pasamos a la creación del html que está estructurada en partes: la primera con el icono del proyecto, el título y el parrafo de descripción. Después tres secciones cada una explica una clave importante del proyecto y una imagen asociada a la explicación. Tb una mini seccion de créditos. Por último, un aside por si quieres visitar el siguiente o el anterior proyecto
 5. Dentro de Créditos encontramos dos operadores ternarios el primero pregunta si existe creditos y creditos link, si existe los muestra en pantalla  ${proyecto.creditos && proyecto.creditoslink ?   -> despues el segundo pregunta si existe creditoslink2 . Todo esto es porque en algunos proyectos si que muestro creditos y en otros no. */
 
   if (proyecto) {
-    const actualId = proyectos.indexOf(proyecto); //1
+    const actualId = proyectos.findIndex(p => p.id === proyecto.id); // Buscar por ID real
     const prevProyecto = proyectos[actualId - 1] || proyectos[proyectos.length - 1]; //2
     const nextProyecto = proyectos[actualId + 1] || proyectos[0]; //3
 

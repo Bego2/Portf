@@ -105,7 +105,7 @@
   border-radius: 1.4rem;
   padding: 0.5rem 0.8rem;
   margin: 0.5rem 0 0 0;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
 }
 
 /* ___________________________  
@@ -173,6 +173,10 @@
 
   .Proyectos {
     padding: 3rem 6rem;
+  }
+
+  .Proyecto-tag {
+    font-size: 0.8rem;
   }
 }
 
@@ -277,7 +281,7 @@
   }
 
   .Proyecto-textsTit {
-    max-width: 60%;
+    max-width: 80%;
   }
 
   .Proyecto-subtit {
@@ -293,7 +297,7 @@
     gap: 1rem;
   }
   .Proyecto-tag {
-  margin:   1rem 0 0 0;
+  margin:   1rem 0 0 0; 
   font-size: 1.125rem;
 }
 

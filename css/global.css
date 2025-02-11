@@ -379,7 +379,6 @@ svg {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.625rem;
     font-size: 1.125rem;
     gap: 2rem;
     padding: 0;
@@ -426,8 +425,8 @@ svg {
   }
 
   .Logo {
-    width: 3rem;
-    height: 3rem;
+    width: 2.5rem;
+    height: 2.5rem;
   }
 
   .Header-nav {
@@ -435,7 +434,7 @@ svg {
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 3rem;
+    padding: 1.5rem;
   }
 
   .Header-enlaces {
@@ -443,7 +442,7 @@ svg {
     flex-direction: row;
     align-items: center;
     gap: 2.5rem;    
-    font-size: 1.7rem;
+    font-size: 1.25rem;
   }
 
   /* isActive se aplica a Header-enlaces */
