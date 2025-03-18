@@ -144,8 +144,7 @@ Tenemos al final del todo una sección con los mediaqueries*/
 }
 
 .Aside-container:hover {
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
+  color: var(--color-acento);
   filter: brightness(1.3);
   transform: scale(1.03);
 }
@@ -153,6 +152,8 @@ Tenemos al final del todo una sección con los mediaqueries*/
 .Aside-text {
   font-size: var(--font-size-parrafo);
 }
+
+
 
 /* ________________________ */
 /*       Media Queries      */
