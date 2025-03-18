@@ -258,7 +258,8 @@
   .Hero-video {
     width: 100%;
     height: auto;
-    margin-top: -50px; /* Ajusta el recorte superior */
+    /* margin-top: -30px;  */
+    /* Ajusta el recorte superior */
     clip-path: inset(0 0 10px 0);
   }
 
@@ -320,7 +321,7 @@
   .Hero-arrow {
     padding-left: 6rem;
   }
-  
+
   .Proyectos {
     padding: 5rem 6rem;
   }
