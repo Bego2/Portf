@@ -264,14 +264,16 @@
     clip-path: inset(0 0 10px 0);
   }
 
-  .Hero {
-    height: auto;
-  }
-
+  
   .Hero-titulo {
     font-size: 1.4rem;
     padding: 6rem 2rem 1rem;
   }
+  
+  .Hero {
+    height: auto;
+  }
+
 
   .Proyectos {
     padding: 3.2rem 2rem 4rem;
