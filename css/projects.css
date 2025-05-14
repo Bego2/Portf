@@ -1,11 +1,3 @@
-/* Aquí encontramos los estilos para los proyectos, todos comparten una estructura muy similar:  
-
-1. Seccion Project header: con el icono del proyecto, el título y el parrafo de descripción. 
-2. Tres secciones llamadas Secciones Clave. Cada una explica una clave importante del proyecto y una imagen asociada a la explicación. 
-3. Mini seccion de créditos (algunos proyectos la tienen y otros no)
-4. Aside para ir a los proyectos anterior y posterior
-
-Tenemos al final del todo una sección con los mediaqueries*/
 
 /* ___________________________  
        PROJECT HEADER         
@@ -232,6 +224,7 @@ Tenemos al final del todo una sección con los mediaqueries*/
   .Creditos {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 0;
   }
 
@@ -307,6 +300,7 @@ Tenemos al final del todo una sección con los mediaqueries*/
   .Creditos {
     display: flex;
     flex-direction: row;
+    align-items: center;
     gap: 0;
   }
 

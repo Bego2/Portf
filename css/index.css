@@ -150,13 +150,32 @@
 .Proyecto--lugar {
   background-color: #5245aa;
   color: var(--color-secondary);
-  color: var(--color-secondary);
 }
 
 .Proyecto-tag--lugar {
   background-color: rgb(217, 212, 255);
   color: #5245aa;
 }
+
+/* Proyecto PROX */
+.Proyecto--prox {
+  background-color: #656565;
+  color: var(--color-secondary);
+}
+
+.Proyecto-tag--prox {
+  background-color: #dedede;
+  color: black;
+
+}
+
+.Proyectoo { /* volver a poner Proyecto */
+  border-radius: var(--border-radius-img);
+  display: flex;
+  flex-direction: column;
+}
+
+/* iframe */
 
 .iframe-container {
   position: relative;
@@ -172,7 +191,6 @@
   height: 100%;
   border: none;
 }
-
 /* ________________________  
          Media Queries    
  ________________________ */
