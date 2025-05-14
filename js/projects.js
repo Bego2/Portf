@@ -12,6 +12,20 @@ fetch('./json/projects.json')
 
     const html = renderProyecto(proyecto, prevProyecto, nextProyecto);
     document.getElementById('mainContainer').innerHTML = html;
+    
+  new Swiper('.mySwiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev'
+    },
+    spaceBetween: 20
+  });
+
   })
   .catch(error => {
     console.error('Error:', error);
@@ -44,25 +58,46 @@ fetch('./json/projects.json')
 //Función para las secciones clave
 
 function renderSecciones(proyecto) {
-  return proyecto.SectionClaves?.map((seccion, index) => `
-    <section class="SectionClave">
+  return proyecto.SectionClaves?.map((seccion, index) => {
+    const encabezadoHTML = `
       <div class="Section-textContainer">
         <div class="Section-textGroup">
-          <h4 class="Text-headingLead">CLAVE ${index + 1}/3</h4>
+          <h4 class="Text-headingLead">${seccion.subheading || `CLAVE ${index + 1}`}</h4>
           <h3 class="Text-headingMedium">${seccion.heading}</h3>
         </div>
         <div class="Section-parrafos">
           <p class="Text-parrafo">${seccion.text}</p>
         </div>
-      </div>
-      <div class="Section-imgContainer">
-        <picture>
-          <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
-        </picture>
-      </div>
-    </section>
-  `).join('') || '';
+      </div>`;
+
+    const imagenHTML = seccion.swiper && seccion.imagenes
+      ? `<div class="swiper mySwiper">
+           <div class="swiper-wrapper">
+             ${seccion.imagenes.map(img => `
+               <div class="swiper-slide">
+                 <picture>
+                   <img src="${img.src}" alt="${img.alt}" loading="lazy" class="Carrusel-img">
+                 </picture>
+               </div>`).join('')}
+           </div>
+           <div class="swiper-pagination"></div>
+           <div class="swiper-button-prev"></div>
+           <div class="swiper-button-next"></div>
+         </div>`
+      : `<div class="Section-imgContainer">
+           <picture>
+             <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
+           </picture>
+         </div>`;
+
+    return `
+      <section class="SectionClave">
+        ${encabezadoHTML}
+        ${imagenHTML}
+      </section>`;
+  }).join('') || '';
 }
+
 
 //Función para créditos
 function renderCreditos(proyecto) {
@@ -74,7 +109,7 @@ function renderCreditos(proyecto) {
         <h4 class="Creditos-titulo">${proyecto.creditosTitle}</h4>
         <ul>
           ${proyecto.creditos.map(c => `
-            <li><a href="${c.link}" class="Creditos-link" target="_blank" rel="noopener noreferrer">${c.creditostxt}</a></li>
+            <li><a href="${c.link}" class="Creditos-link" target="_blank" rel="noopener noreferrer">${c.txt}</a></li>
           `).join('')}
         </ul>
       </section>

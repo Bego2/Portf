@@ -4,7 +4,7 @@
     "titulo": "Steez",
     "icono": "./img/steez-iconotitulo.svg",
     "alt": "icono de steez, carita sonriente en negro sobre fondo neon",
-    "descripcion": "identidad gráfica y diseño de interfaz para una aplicación de intercambio y alquiler de sneakers. 'Exchange & Shine' se convierte en el lema de personas jóvenes que aman la moda, las sneakers y la sostenibilidad.",
+    "descripcion": "Identidad gráfica y diseño de interfaz para una aplicación de intercambio y alquiler de sneakers. 'Exchange & Shine' se convierte en el lema de personas jóvenes que aman la moda, las sneakers y la sostenibilidad.",
     "imgaside": "./img/thumbnail-steez.webp",
 
     "SectionClaves": [
@@ -21,6 +21,7 @@
         "alt": "iconos de steez y una pantalla móvil donde se muestran estos iconos aplicados"
       },
       {
+        "subheading":"hola" ,
         "heading": "La importancia de priorizar",
         "text": "Antes de diseñar, analizamos cómo lograr un equilibrio entre una app visualmente atractiva para el público joven y una experiencia de usuario óptima. Gracias a la pirámide UX y al árbol de funcionalidades, conseguimos nuestro objetivo.",
         "img": "./img/steez-arbolfuncionalidades.webp",
@@ -53,18 +54,21 @@
     "imgaside": "./img/thumbnail-festival.webp",
     "SectionClaves": [
       {
+        "subheading":"" ,
         "heading": "Soluciones nicho para un nicho de diseñadores",
         "text": "La comunicación gráfica está pensada específicamente para el público de Item: los motion designers. Para el diseño del festival, tomé como referencia los softwares de motion graphics, integrando símbolos, jerarquías y elementos de interacción inspirados en estas herramientas.",
         "img": "./img/festival-desktop.webp",
         "alt": "diseños web para la home y la página de información sobre el festival"
       },
       {
+        "subheading":"" ,
         "heading": "Dispositivos diferentes, objetivos distintos",
         "text": "La web del festival permite acceder al programa, consultar el mapa del recinto y obtener información clave. En cambio, la app está diseñada para que los asistentes gestionen su acceso al evento, revisen sus inscripciones o se apunten a nuevas actividades.",
         "img": "./img/festival-dispositivos.webp",
         "alt": "diseños web adaptado a ipad y varios diseños de la app"
       },
       {
+        "subheading":"" ,
         "heading": "Diseño centrado en el usuario",
         "text": "Un estudio previo del público asistente fue esencial para definir la mejor propuesta en web y app. Al analizar sus necesidades, adapté la experiencia en cada dispositivo. Tuve que equilibrar funcionalidad con una interacción más arriesgada y experimental.",
         "img": "./img/festival-dcu.webp",
@@ -82,18 +86,21 @@
     "imgaside": "./img/thumbnail-brillo.webp",
     "SectionClaves": [
       {
+        "subheading":"" ,
         "heading": "Una dirección de arte amable",
         "text": "La identidad visual se construye a partir de dos colores principales: verde y crema, reforzando la conexión con la naturaleza. La paleta se expande en la web con tonos adicionales que evocan creatividad y calidez.",
         "img": "./img/brillo-identidad.webp",
         "alt": "identidad visual del proyecto brillo, logo, fotografía, landing web"
       },
       {
+        "subheading":"" ,
         "heading": "Ilustración y fotografía",
         "text": "Las ilustraciones, pintadas a mano con acrílico, aportan un toque artesanal y artístico. Se integran tanto en la web como en redes sociales, enriqueciendo la identidad visual. Para la dirección de fotografía decidí: imágenes diurnas, coloridas y capturadas con luz natural, transmitiendo frescura y vitalidad.",
         "img": "./img/brillo-instagram.webp",
         "alt": "historias de instagram, se han aplicado los colores de marca y la identidad visual"
       },
       {
+        "subheading":"" ,
         "heading": "¡Diseño web!",
         "text": "El lanzamiento se realizó con Webflow. Aunque en ese momento no tenía los conocimientos de desarrollo web que tengo ahora, me alegra haberme atrevido. Gracias a este proyecto, decidí formarme en diseño web.",
         "img": "./img/brillo-pruebas.webp",
@@ -106,7 +113,7 @@
         {
           "link": "https://retirobrillo.webflow.io/", 
           "title": "Visita la web de Brillo",
-          "creditostxt": "Web de Brillo"
+          "txt": "Web de Brillo"
         }
     ]
   },
@@ -120,22 +127,89 @@
     "imgaside": "./img/thumbnail-lugar.webp",
     "SectionClaves": [
       {
+        "subheading":"" ,
         "heading": "Emociones a flor de piel",
         "text": "Al escuchar el disco y analizar sus letras en profundidad, identifiqué emociones clave: el pasado, lo inadecuado, el dolor y la sensibilidad. Basándome en la teoría del color de Eva Heller, extraje una paleta cromática que reflejara estas sensaciones.",
         "img": "./img/lugar-identidad.webp",
         "alt": "tipografía sans serif, colores pastel y texturas granuladas usadas en el proyecto"
       },
       {
+        "subheading":"" ,
         "heading": "Internet y música",
         "text": "La forma en que hoy en día se lanzan discos me llevó a diseñar las portadas de los singles como adelantos del álbum, asegurando una coherencia gráfica en todo el proyecto.",
         "img": "./img/lugar-spotify.webp",
         "alt": "las portadas de los singles del disco fuera de lugar"
       },
       {
+        "subheading":"" ,
         "heading": "Lo tangible sigue siendo importante",
         "text": "El diseño no se quedó solo en lo digital. Creé diferentes piezas de merchandising, desde el vinilo y pósters hasta una camiseta y una bolsa de tela para transportarlo todo :)",
         "img": "./img/lugar-merch.webp",
         "alt": "el merchandasing, vinilo, posters, bolsa de tela y camiseta por delante y detrás"
+      }
+    ]
+  },
+
+  {
+    "id": 5,
+    "titulo": "Mottor",
+    "icono": "./img/mottor-iconotitulo.svg",
+    "alt": "_",
+    "descripcion": "Este proyecto nació de una pregunta: ¿cómo mejorar la preparación del examen teórico de conducir? La respuesta fue Mottor, una app que diseña un plan de estudio, permite practicar con tests, hace seguimiento del progreso y motiva con un feedback claro y cercano. He seguido la metodología Design Thinking con el modelo doble diamante, abordando las fases: observar, sintetizar, idear y diseñar.",
+    "imgaside": "./img/thumbnail-mottor.webp",
+    "SectionClaves": [
+      {
+        "subheading":"FASE OBSERVAR" ,
+        "heading": "Un nicho de mercado",
+        "text": "Tras realizar desk research, netnografía y analizar referentes internacionales, detecté una oportunidad en España: desarrollar una app con modelo freemium, desvinculada de autoescuelas, que ofrezca tests oficiales y una experiencia de usuario cuidada. Esta propuesta responde a quienes prefieren estudiar por su cuenta, viven en zonas remotas o no necesitan clases presenciales. Las entrevistas y encuestas me ayudaron a identificar puntos de mejora y definir mejor a los usuarios.",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-dafo.webp", "alt": "Referencia 1" },
+      { "src": "img/mottor-bench.webp", "alt": "Referencia 2" },
+      { "src": "img/mottor-entrev.webp", "alt": "Referencia 3" },
+      { "src": "img/mottor-entrev2.webp", "alt": "Referencia 4" }
+
+    ],
+        "alt": "_"
+      },
+
+      {
+        "subheading":"FASE SINTETIZAR" ,
+        "heading": "Carmen & Jorge",
+        "text": "Di forma a “Carmen”. El primer User persona que está estudiando el carnet tipo B. También a Jorge, que está opositando a bombero y estudia el carnet de camión tipo C. Realicé por cada perfil su mapa de empatía, customer journey y Matriz de necesidades.",
+        "img": "img/mottor-dafo.webp",
+        "alt": "_"
+      },
+
+      {
+        "subheading":"Fase idear" ,
+        "heading": "Una propuesta de valor",
+        "text": "Durante esta fase tuve en cuenta los findings e insights, realicé el cluster, fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a mi propuesta de valor: una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar desde cualquier lugar.",
+        "img": "img/mottor-dafo.webp",
+        "alt": "_"
+      }, 
+
+      {
+        "subheading":"Fase diseñar" ,
+        "heading": "Propuesta de valor",
+        "text": "Arranqué con el site map, flow charts, wireframes y moodboard. Después de realizar el prototipo mid-fi, lancé mi primera interacción con Maze: relicé cambios en el UX-writing que mejoraron la usabilidad. Después configuré el sistema de diseño. Elegí a Manrope, una tipografía cercana, que sin ser monoespaciada, sus números se ven muy bien.",
+        "img": "img/mottor-dafo.webp",
+        "alt": "_"
+      }, 
+
+      {
+        "subheading":"El resultado" ,
+        "heading": "Encendiendo mottores",
+        "text": "La app se compone de una pantalla Inicio con accesos directos a las funcionalidades más importantes y una barra de navegación  que comunica con las secciones de: [Ruta: el plan de estudios generado por IA adaptado a fecha de examen] [Tests: para practicar la teoría de diferentes maneras] [Perfil: para configurar las preferencias del usuario]",
+        "img": "img/mottor-dafo.webp",
+        "alt": "_"
+      }, 
+
+      {
+        "subheading":"Conclusiones" ,
+        "heading": "La importancia de discernir",
+        "text": "Gracias al esfuerzo por apostar por una solución coherente y basada en la investigación he llegado a un resultado que me encanta. No me he limitado a diseñar y ya, si no que he discernido constantemente: qué podía ser realista y útil para el usuario, qué podía mejorar según los principios de Nielsen y cómo podía conectar al usuario con la marca usando herramientas como UX writing o conceptos propios de la temática. Sin duda es una app que me gustaría haber podido usar mientras me preparaba el examen teórico :)",
+        "img": "img/mottor-dafo.webp"
       }
     ]
   }

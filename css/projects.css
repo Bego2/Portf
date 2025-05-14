@@ -82,6 +82,20 @@
   height: auto;
 }
 
+/* Swiper */
+
+.swiper {
+  width: 100%;
+  padding: 1rem 0;
+}
+
+.swiper-slide img {
+  width: 100%;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+
 /* ____________________________________  
                 CREDITOS              
    _____________________________________*/
