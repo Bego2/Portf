@@ -155,7 +155,7 @@
     "titulo": "Mottor",
     "icono": "./img/mottor-iconotitulo.svg",
     "alt": "_",
-    "descripcion": "Este proyecto nació de una pregunta: ¿cómo mejorar la preparación del examen teórico de conducir? La respuesta fue Mottor, una app que diseña un plan de estudio, permite practicar con tests, hace seguimiento del progreso y motiva con un feedback claro y cercano. He seguido la metodología Design Thinking con el modelo doble diamante, abordando las fases: observar, sintetizar, idear y diseñar.",
+    "descripcion": "Mottor es una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar desde cualquier lugar. He seguido la metodología Design Thinking abordando las fases: observar, sintetizar, idear y diseñar.",
     "imgaside": "./img/thumbnail-mottor.webp",
     "SectionClaves": [
       {

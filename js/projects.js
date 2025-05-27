@@ -12,19 +12,41 @@ fetch('./json/projects.json')
 
     const html = renderProyecto(proyecto, prevProyecto, nextProyecto);
     document.getElementById('mainContainer').innerHTML = html;
-    
-  new Swiper('.mySwiper', {
+document.querySelectorAll('.Swiper').forEach(swiperEl => {
+  const swiperInstance = new Swiper(swiperEl, {
     loop: true,
     pagination: {
-      el: '.swiper-pagination',
+      el: swiperEl.querySelector('.swiper-pagination'),
       clickable: true
-    },
-    navigation: {
-      nextEl: '.swiper-button-next',
-      prevEl: '.swiper-button-prev'
     },
     spaceBetween: 20
   });
+
+  swiperEl.addEventListener('mousemove', (e) => {
+    const rect = swiperEl.getBoundingClientRect();
+    const x = e.clientX - rect.left;
+    const middle = rect.width / 2;
+
+    if (x < middle) {
+      swiperEl.style.cursor = 'url(./img/cursor-left.svg), auto';
+      swiperEl.dataset.direction = 'prev';
+    } else {
+      swiperEl.style.cursor = 'url(./img/cursor-right.svg), auto';
+      swiperEl.dataset.direction = 'next';
+    }
+  });
+
+  swiperEl.addEventListener('mouseleave', () => {
+    swiperEl.style.cursor = 'default';
+    delete swiperEl.dataset.direction;
+  });
+
+  swiperEl.addEventListener('click', () => {
+    const direction = swiperEl.dataset.direction;
+    if (direction === 'next') swiperInstance.slideNext();
+    if (direction === 'prev') swiperInstance.slidePrev();
+  });
+});
 
   })
   .catch(error => {
@@ -70,25 +92,25 @@ function renderSecciones(proyecto) {
         </div>
       </div>`;
 
-    const imagenHTML = seccion.swiper && seccion.imagenes
-      ? `<div class="swiper mySwiper">
-           <div class="swiper-wrapper">
-             ${seccion.imagenes.map(img => `
-               <div class="swiper-slide">
-                 <picture>
-                   <img src="${img.src}" alt="${img.alt}" loading="lazy" class="Carrusel-img">
-                 </picture>
-               </div>`).join('')}
-           </div>
-           <div class="swiper-pagination"></div>
-           <div class="swiper-button-prev"></div>
-           <div class="swiper-button-next"></div>
-         </div>`
-      : `<div class="Section-imgContainer">
-           <picture>
-             <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
-           </picture>
-         </div>`;
+const imagenHTML = seccion.swiper && seccion.imagenes
+  ? `<div class="Swiper swiper">
+       <div class="swiper-wrapper">
+         ${seccion.imagenes.map(img => `
+           <div class="swiper-slide Swiper-slide">
+             <picture>
+               <img src="${img.src}" alt="${img.alt}" loading="lazy" class="Swiper-img">
+             </picture>
+           </div>`).join('')}
+       </div>
+       <div class="swiper-pagination Swiper-pagination"></div>
+     </div>`
+  : `<div class="Section-imgContainer">
+       <picture>
+         <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
+       </picture>
+     </div>`;
+
+
 
     return `
       <section class="SectionClave">
@@ -97,6 +119,7 @@ function renderSecciones(proyecto) {
       </section>`;
   }).join('') || '';
 }
+
 
 
 //Función para créditos

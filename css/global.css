@@ -10,13 +10,7 @@ Tb encontramos el Root y Reset que han sido claves para dar estilos generales a 
   font-display: swap;
 }
 
-@font-face {
-  font-family: "Editorial";
-  src: url(../font/editorial.woff2) format("woff2");
-  font-weight: 700;
-  font-style: normal;
-  font-display: swap;
-}
+
 /* __________________
         RESET 
  ____________________ */
@@ -30,7 +24,6 @@ Tb encontramos el Root y Reset que han sido claves para dar estilos generales a 
   --color-gris-claro: #f5f5f9;
 
   --tipo-primary: "Robert", Helvetica, Arial, sans-serif;
-  --tipo-secondary:  "Editorial", Helvetica, Arial, sans-serif;
   --font-size-parrafo: 1rem;
   --font-size-lead: 0.875rem;
   --font-size-heading-md: 1.5rem;
@@ -129,7 +122,7 @@ svg {
 .Text-headingLead {
   font-family: var(--tipo-secondary);
   font-size: var(--font-size-lead);
-  font-weight: bold;
+  /* font-weight: bold; */
   letter-spacing: var(--letter-spacing);
   margin-bottom: 1rem;
 }
