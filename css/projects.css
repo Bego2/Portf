@@ -82,6 +82,14 @@
   height: auto;
 }
 
+/* Imágenes en columna */
+.Section-multipleImages {
+  display: flex;
+  flex-direction: column;
+  gap: var(--padding);
+}
+
+
 /* Swiper */
 .Swiper {
   position: relative;

@@ -92,23 +92,38 @@ function renderSecciones(proyecto) {
         </div>
       </div>`;
 
-const imagenHTML = seccion.swiper && seccion.imagenes
-  ? `<div class="Swiper swiper">
-       <div class="swiper-wrapper">
-         ${seccion.imagenes.map(img => `
-           <div class="swiper-slide Swiper-slide">
-             <picture>
-               <img src="${img.src}" alt="${img.alt}" loading="lazy" class="Swiper-img">
-             </picture>
-           </div>`).join('')}
-       </div>
-       <div class="swiper-pagination Swiper-pagination"></div>
-     </div>`
-  : `<div class="Section-imgContainer">
-       <picture>
-         <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
-       </picture>
-     </div>`;
+let imagenHTML = '';
+
+if (seccion.swiper && seccion.imagenes) {
+  imagenHTML = `
+    <div class="Swiper swiper">
+      <div class="swiper-wrapper">
+        ${seccion.imagenes.map(img => `
+          <div class="swiper-slide Swiper-slide">
+            <picture>
+              <img src="${img.src}" alt="${img.alt}" loading="lazy" class="Swiper-img">
+            </picture>
+          </div>`).join('')}
+      </div>
+      <div class="swiper-pagination Swiper-pagination"></div>
+    </div>`;
+} else if (seccion.multiple && seccion.imagenes) {
+  imagenHTML = `
+    <div class="Section-multipleImages">
+      ${seccion.imagenes.map(img => `
+        <picture>
+          <img src="${img.src}" alt="${img.alt}" loading="lazy" class="SectionClave-img">
+        </picture>`).join('')}
+    </div>`;
+} else if (seccion.img) {
+  imagenHTML = `
+    <div class="Section-imgContainer">
+      <picture>
+        <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
+      </picture>
+    </div>`;
+}
+
 
 
 

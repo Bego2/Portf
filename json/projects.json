@@ -159,58 +159,92 @@
     "imgaside": "./img/thumbnail-mottor.webp",
     "SectionClaves": [
       {
-        "subheading":"FASE OBSERVAR" ,
+        "subheading":"FASE OBSERVAR 1/4" ,
         "heading": "Un nicho de mercado",
-        "text": "Tras realizar desk research, netnografía y analizar referentes internacionales, detecté una oportunidad en España: desarrollar una app con modelo freemium, desvinculada de autoescuelas, que ofrezca tests oficiales y una experiencia de usuario cuidada. Esta propuesta responde a quienes prefieren estudiar por su cuenta, viven en zonas remotas o no necesitan clases presenciales. Las entrevistas y encuestas me ayudaron a identificar puntos de mejora y definir mejor a los usuarios.",
+        "text": "Tras realizar Desk research, Netnografía y analizar referentes internacionales, detecté una oportunidad en España: <strong>desarrollar una app con modelo freemium, desvinculada de autoescuelas, que ofrezca tests oficiales y una experiencia de usuario cuidada.</strong> Esta propuesta responde a quienes prefieren estudiar por su cuenta, viven en zonas remotas o no necesitan clases presenciales. Las entrevistas y encuestas me ayudaron a definir a los usuarios finales e identificar puntos de mejora.",
         "swiper": true,
       "imagenes": [
       { "src": "img/mottor-dafo.webp", "alt": "Referencia 1" },
       { "src": "img/mottor-bench.webp", "alt": "Referencia 2" },
-      { "src": "img/mottor-entrev.webp", "alt": "Referencia 3" },
-      { "src": "img/mottor-entrev2.webp", "alt": "Referencia 4" }
+      { "src": "img/mottor-entrevistas.webp", "alt": "Referencia 3" },
+      { "src": "img/mottor-encuesta.webp", "alt": "Referencia 4" }
 
-    ],
-        "alt": "_"
+    ] 
       },
 
       {
-        "subheading":"FASE SINTETIZAR" ,
+        "subheading":"FASE SINTETIZAR 2/4" ,
         "heading": "Carmen & Jorge",
-        "text": "Di forma a “Carmen”. El primer User persona que está estudiando el carnet tipo B. También a Jorge, que está opositando a bombero y estudia el carnet de camión tipo C. Realicé por cada perfil su mapa de empatía, customer journey y Matriz de necesidades.",
-        "img": "img/mottor-dafo.webp",
-        "alt": "_"
+        "text": "Di forma a “Carmen”. El primer User persona que está estudiando el carnet tipo B. También a Jorge, que está opositando a bombero y estudia el carnet de camión tipo C. Realicé por cada perfil su <strong>Mapa de empatía, Customer journey y Matriz de necesidades.</strong>",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-usercarmen.webp", "alt": "Referencia 1" },
+      { "src": "img/mottor-journeycarmen.webp", "alt": "Referencia 2" },
+      { "src": "img/mottor-userjorge.webp", "alt": "Referencia 3" },
+      { "src": "img/mottor-journeyjorge.webp", "alt": "Referencia 4" }
+
+    ]
+  
       },
 
       {
-        "subheading":"Fase idear" ,
-        "heading": "Una propuesta de valor",
-        "text": "Durante esta fase tuve en cuenta los findings e insights, realicé el cluster, fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a mi propuesta de valor: una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar desde cualquier lugar.",
-        "img": "img/mottor-dafo.webp",
-        "alt": "_"
-      }, 
-
-      {
-        "subheading":"Fase diseñar" ,
+        "subheading":"FASE IDEAR 3/4" ,
         "heading": "Propuesta de valor",
-        "text": "Arranqué con el site map, flow charts, wireframes y moodboard. Después de realizar el prototipo mid-fi, lancé mi primera interacción con Maze: relicé cambios en el UX-writing que mejoraron la usabilidad. Después configuré el sistema de diseño. Elegí a Manrope, una tipografía cercana, que sin ser monoespaciada, sus números se ven muy bien.",
-        "img": "img/mottor-dafo.webp",
-        "alt": "_"
-      }, 
-
-      {
-        "subheading":"El resultado" ,
-        "heading": "Encendiendo mottores",
-        "text": "La app se compone de una pantalla Inicio con accesos directos a las funcionalidades más importantes y una barra de navegación  que comunica con las secciones de: [Ruta: el plan de estudios generado por IA adaptado a fecha de examen] [Tests: para practicar la teoría de diferentes maneras] [Perfil: para configurar las preferencias del usuario]",
-        "img": "img/mottor-dafo.webp",
-        "alt": "_"
-      }, 
-
-      {
-        "subheading":"Conclusiones" ,
-        "heading": "La importancia de discernir",
-        "text": "Gracias al esfuerzo por apostar por una solución coherente y basada en la investigación he llegado a un resultado que me encanta. No me he limitado a diseñar y ya, si no que he discernido constantemente: qué podía ser realista y útil para el usuario, qué podía mejorar según los principios de Nielsen y cómo podía conectar al usuario con la marca usando herramientas como UX writing o conceptos propios de la temática. Sin duda es una app que me gustaría haber podido usar mientras me preparaba el examen teórico :)",
-        "img": "img/mottor-dafo.webp"
-      }
+        "text": "Después de analizar <strong>Findings e Insights</strong>, realicé el cluster y fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a la <strong>propuesta de valor:</strong> una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar en remoto.",
+            "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-insights.webp", "alt": "Referencia 1" },
+      { "src": "img/mottor-moscow.webp", "alt": "Referencia 2" },
+      { "src": "img/mottor-propvalor.webp", "alt": "Referencia 3" }
     ]
+      }, 
+
+      {
+        "subheading":"FASE DISEÑAR 4/4" ,
+        "heading": "Encendiendo mottores",
+        "text": "Arranqué con el <strong>site map, flow charts y wireframes</strong>. Después de realizar el prototipo mid-fi, lancé mi primera interacción con <strong>Maze:</strong> relicé cambios en el UX-writing que mejoraron la usabilidad. Cerré esta fase configurando el <strong>sistema de diseño</strong>.",
+         "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-sitemap.webp", "alt": "Referencia 1" },
+      { "src": "img/mottor-flowchart.webp", "alt": "Referencia 2" },
+      { "src": "img/mottor-wireframes.webp", "alt": "Referencia 3" },
+      { "src": "img/mottor-test.webp", "alt": "Referencia 4" },
+       { "src": "img/mottor-variables.webp", "alt": "Referencia 4" }
+          ]      
+        }, 
+
+      {
+        "subheading":"EL RESULTADO" ,
+        "heading": "¡Estamos en ruta!",
+        "text": "La app se compone de una pantalla Inicio con accesos directos a las funcionalidades más importantes y una barra de navegación  que comunica con las secciones: [ <strong>Ruta:</strong> el plan de estudios generado por IA adaptado a fecha de examen ] — [ <strong>Tests:</strong> para practicar la teoría de diferentes maneras ] — [ <strong>Perfil:</strong> para configurar las preferencias del usuario ]. <br> <strong> <u> <a href='https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428' target='_blank' rel='noopener noreferrer'> Interactúa con el prototipo -> aquí. </a> </u> </strong>",
+        "multiple": true,
+         "imagenes": [
+      { "src": "img/mottor-prototipoinicio.webp", "alt": "Referencia 1" },
+      { "src": "img/mottor-prototipoexamen.webp", "alt": "Referencia 2" },
+        { "src": "img/mottor-feedback.webp", "alt": "Referencia 2" },
+          { "src": "img/mottor-web.webp", "alt": "Referencia 2" }
+          ]    
+      }, 
+
+      {
+        "subheading":"CONCLUSIONES" ,
+        "heading": "La importancia de discernir",
+        "text": "Seguir la metodología <strong>Design Thinking</strong> me ha ayudado a no perder el foco y a tomar decisiones basadas en la investigación. No me he limitado a diseñar y ya, si no que he discernido constantemente: qué podía ser útil y necesario para el usuario, qué podía mejorar según los principios de <strong>Nielsen</strong> y cómo podía conectar al usuario con la marca usando herramientas como <strong>UX writing</strong> o conceptos propios de la temática. ¡Me hubiera encantado prepararme el examen con una app así! <strong>:)</strong>",
+        "img": false
+      }
+      
+    ],
+
+     "creditosTitle": "Interactúa con <br> el prototipo",
+      "creditos": [
+        {
+          "link": "https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428", 
+          "title": "Ver prototipo",
+          "txt": "Ver prototipo <br> en Figma"
+        }
+    ]
+    
+
+    
   }
 ]
