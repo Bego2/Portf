@@ -10,22 +10,21 @@
     "SectionClaves": [
       {
         "heading": "Llamando la atención a través de la identidad",
-        "text": "La identidad visual se compone de una paleta de colores en tonos gris y negro, con un acento de color neón. Aunque las tipografías utilizadas son sin serifa, su combinación genera contraste y un estilo desenfadado",
-        "img": "./img/steez-pantallasmobile.webp",
+        "text": "La identidad visual se compone de una paleta de colores en tonos gris y negro, con un acento de color neón. Aunque las tipografías utilizadas son sin serifa, su combinación genera <strong>contraste y un estilo desenfadado</strong>",
+        "img": "./img/steez-pantallas.webp",
         "alt": "tres pantallas formato mobile, mostrando la identidad de steez"
       },
       {
         "heading": "Iconos que no dejan indiferente",
-        "text": "Disfruté especialmente el proceso de creación del set de iconos. Diseñados en Illustrator como vectores, presentan una estética asimétrica y afilada que aporta personalidad a la interfaz.",
+        "text": "Disfruté especialmente el proceso de creación del set de iconos. Diseñados en <strong>Illustrator</strong> como vectores, presentan una estética asimétrica y afilada que aporta personalidad a la interfaz.",
         "img": "./img/steez-iconos.webp",
         "alt": "iconos de steez y una pantalla móvil donde se muestran estos iconos aplicados"
       },
-      {
-        "subheading":"hola" ,
+      {    
         "heading": "La importancia de priorizar",
-        "text": "Antes de diseñar, analizamos cómo lograr un equilibrio entre una app visualmente atractiva para el público joven y una experiencia de usuario óptima. Gracias a la pirámide UX y al árbol de funcionalidades, conseguimos nuestro objetivo.",
-        "img": "./img/steez-arbolfuncionalidades.webp",
-        "alt": "árbol de funcionalidades de steez"
+        "text": "Antes de diseñar, analizamos cómo lograr un equilibrio entre una app visualmente atractiva para el público joven y una experiencia de usuario óptima. Gracias a la pirámide UX y al árbol de funcionalidades, conseguimos nuestro objetivo. A continuación encontramos el <strong>Sitemap</strong> de Steez.",
+        "img": "./img/steez-arbol.webp",
+        "alt": "sitemap steez"
       }
     ],
 
@@ -45,8 +44,174 @@
 
   },
 
-  {
+    {
     "id": 2,
+    "titulo": "Mottor",
+    "icono": "./img/mottor-iconotitulo.svg",
+    "alt": "_",
+    "descripcion": "Mottor es una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar desde cualquier lugar. He seguido la metodología Design Thinking abordando las fases: observar, sintetizar, idear y diseñar.",
+    "imgaside": "./img/thumbnail-mottor.webp",
+    "SectionClaves": [
+      {
+        "subheading":"FASE OBSERVAR 1/4" ,
+        "heading": "Un nicho de mercado",
+        "text": "Tras realizar Desk research, Netnografía y analizar referentes internacionales, detecté una oportunidad en España: <strong>desarrollar una app con modelo freemium, desvinculada de autoescuelas, que ofrezca tests oficiales y una experiencia de usuario cuidada.</strong> Esta propuesta responde a quienes prefieren estudiar por su cuenta, viven en zonas remotas o no necesitan clases presenciales. Las entrevistas y encuestas me ayudaron a definir a los usuarios finales e identificar puntos de mejora.",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-dafo.webp", "alt": "cuadrante dafo" },
+      { "src": "img/mottor-bench.webp", "alt": "benchmarking" },
+      { "src": "img/mottor-entrevistas.webp", "alt": "entrevistas a Ana y Julián" },
+      { "src": "img/mottor-encuesta.webp", "alt": "encuesta a usuarios" }
+
+    ] 
+      },
+
+      {
+        "subheading":"FASE SINTETIZAR 2/4" ,
+        "heading": "Carmen & Jorge",
+        "text": "Di forma a “Carmen”. El primer User persona que está estudiando el carnet tipo B. También a Jorge, que está opositando a bombero y estudia el carnet de camión tipo C. Realicé por cada perfil su <strong>Mapa de empatía, Customer journey y Matriz de necesidades.</strong>",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-usercarmen.webp", "alt": "user persona carmen" },
+      { "src": "img/mottor-journeycarmen.webp", "alt": "customer journey carmen" },
+      { "src": "img/mottor-userjorge.webp", "alt": "user persona jorge" },
+      { "src": "img/mottor-journeyjorge.webp", "alt": "customer journey jorge" }
+
+    ]
+  
+      },
+
+      {
+        "subheading":"FASE IDEAR 3/4" ,
+        "heading": "Propuesta de valor",
+        "text": "Después de analizar <strong>Findings e Insights</strong>, realicé el cluster y fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a la <strong>propuesta de valor:</strong> una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar en remoto.",
+            "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-insights.webp", "alt": "findings e insights" },
+      { "src": "img/mottor-moscow.webp", "alt": "cuadrante moscow" },
+      { "src": "img/mottor-propvalor.webp", "alt": "propuesta de valor" }
+    ]
+      }, 
+
+      {
+        "subheading":"FASE DISEÑAR 4/4" ,
+        "heading": "Encendiendo mottores",
+        "text": "Arranqué con el <strong>site map, flow charts y wireframes</strong>. Después de realizar el prototipo mid-fi, lancé mi primera interacción con <strong>Maze:</strong> relicé cambios en el UX-writing que mejoraron la usabilidad. Cerré esta fase configurando el <strong>sistema de diseño</strong>.",
+         "swiper": true,
+      "imagenes": [
+      { "src": "img/mottor-sitemap.webp", "alt": "sitemap" },
+      { "src": "img/mottor-flowchart.webp", "alt": "flowchart" },
+      { "src": "img/mottor-wireframes.webp", "alt": "wireframes" },
+      { "src": "img/mottor-test.webp", "alt": "test de usuarios con maze" },
+       { "src": "img/mottor-variables.webp", "alt": "variables y estilos de figma" }
+          ]      
+        }, 
+
+      {
+        "subheading":"EL RESULTADO" ,
+        "heading": "¡Estamos en ruta!",
+        "text": "La app se compone de una pantalla Inicio con accesos directos a las funcionalidades más importantes y una barra de navegación  que comunica con las secciones: [ <strong>Ruta:</strong> el plan de estudios generado por IA adaptado a fecha de examen ] — [ <strong>Tests:</strong> para practicar la teoría de diferentes maneras ] — [ <strong>Perfil:</strong> para configurar las preferencias del usuario ]. <br> <strong> <a href='https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428' target='_blank' rel='noopener noreferrer'> Interactúa con el prototipo -> aquí. </a></strong>",
+        "multiple": true,
+         "imagenes": [
+      { "src": "img/mottor-prototipoinicio.webp", "alt": "prototipo, pantallas generales" },
+      { "src": "img/mottor-prototipoexamen.webp", "alt": "prototipo, realizar test y ver resultados" },
+        { "src": "img/mottor-feedback.webp", "alt": "prototipo, los tres tipos de feedback" },
+          { "src": "img/mottor-web.webp", "alt": "versión web" }
+          ]    
+      }, 
+
+      {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "La importancia de discernir",
+        "text": "Seguir la metodología <strong>Design Thinking</strong> me ha ayudado a no perder el foco y a tomar decisiones basadas en la investigación. No me he limitado a diseñar y ya, si no que he discernido constantemente: qué podía ser útil y necesario para el usuario, qué podía mejorar según los principios de <strong>Nielsen</strong> y cómo podía conectar al usuario con la marca usando herramientas como <strong>UX writing</strong> o conceptos propios de la temática. ¡Me hubiera encantado prepararme el examen con una app así! <strong>:)</strong>",
+        "img": false
+      }
+      
+    ],
+
+     "creditosTitle": "Interactúa con <br> el prototipo",
+      "creditos": [
+        {
+          "link": "https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428", 
+          "title": "Ver prototipo",
+          "txt": "Ver prototipo <br> en Figma"
+        }
+    ]
+    
+
+    
+  },
+
+  {
+    "id": 3,
+    "titulo": "Brillo",
+    "icono": "./img/brillo-iconotitulo.svg",
+    "alt": "icono de brillo, una B blanca sobre fondo verde oliva",
+    "descripcion": "Dirigí la dirección de arte y el diseño web de Retiro Brillo, un evento que fusiona arte y naturaleza. Con un tono de voz dulce y auténtico, su territorio es la creatividad, y sus valores giran en torno a la naturaleza, la luminosidad y la introspección.",
+    "imgaside": "./img/thumbnail-brillo.webp",
+
+    "SectionClaves": [
+      {
+        "subheading":"" ,
+        "heading": "Naturaleza y expresividad",
+        "text": "La identidad visual se construye a partir de dos colores principales: verde y crema, reforzando la conexión con la <strong>naturaleza</strong>. El logo tiene un toque <strong>juguetón y dinámico</strong>. Realicé algunas pruebas que reforzaban el concepto de brillar. Sin embargo, aposté por los beneficios de una </çstrong>versión vectorizable</strong>, fácil de usar en web o impresión.",
+
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/brillo-logos.webp", "alt": "logo en versión negativo y positivo" },
+      { "src": "img/brillo-prueba.webp", "alt": "logo anterior de brillo" },
+      { "src": "img/brillo-antes.webp", "alt": "otra prueba de logo" }
+      ]
+      },
+      {
+        "subheading":"" ,
+        "heading": "Comunicación Visual",
+        "text": "Las <strong>ilustraciones analógicas</strong>, pintadas con acrílico, aportan un toque artesanal y artístico. Para la <strong>dirección de fotografía</strong> saqué imágenes diurnas y coloridas, transmitiendo frescura y vitalidad. Apliqué estos resultados en la web y las <a href='https://www.instagram.com/stories/highlights/18060815005573146/' target='_blank' rel='noopener noreferrer'> <strong>historias de instagram :)</strong> </a> ",
+           "swiper": true,
+      "imagenes": [
+      { "src": "img/brillo-ilustraciones.webp", "alt": "logo en versión negativo y positivo" },
+      { "src": "img/brillo-instagram.webp", "alt": "logo anterior de brillo" },
+      { "src": "img/brillo-fotos.webp", "alt": "otra prueba de logo" }
+      ]
+      },
+      {
+        "subheading":"" ,
+        "heading": "¡Diseño web!",
+        "text": " <a href='https://retirobrillo.webflow.io/' target='_blank' rel='noopener noreferrer'> <strong>Diseñé esta web con Webflow. </strong> </a> Primeramente usé componentes de <strong>Relume</strong> para ayudarme a estructurar la landing y agilizar el proceso. También hice pruebas de color y fui refinando el copy.",
+               "swiper": true,
+      "imagenes": [
+      { "src": "img/brillo-web.webp", "alt": "logo en versión negativo y positivo" },
+      { "src": "img/brillo-relume.webp", "alt": "logo anterior de brillo" }
+      ]
+      },
+
+       {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "Un reto de principio a fin",
+        "text": "Este proyecto implicaba poner en práctica numerosas habilidades: de <strong>logística y gestión de recursos</strong> (comida, tiempos, alojamiento, personas), pero también de <strong>marketing, comunicación y creatividad</strong>. <br><br> Personalmente me encanta pensar los proyectos de manera global y transversal, por lo que considero que he podido aprender muchísimo y sobre todo disfrutar del proceso. Aunque en ese momento no tenía los conocimientos de desarrollo web, accesibilidad y SEO, me alegra haberme atrevido. Gracias a este proyecto decidí formarme en diseño web :)",
+        "img": false
+      }
+    ], 
+
+    
+
+      "creditosTitle": "Enlaces <br> interesantes",
+      "creditos": [
+        {
+          "link": "https://retirobrillo.webflow.io/", 
+          "title": "Visita la web de Brillo",
+          "txt": "Web de Brillo"
+        },
+         {
+          "link": "https://www.instagram.com/stories/highlights/18060815005573146/", 
+          "title": "Instagram Stories",
+          "txt": "Instagram Stories"
+        }
+    ]
+  },
+  
+  {
+    "id": 4,
     "titulo": "Item",
     "icono": "./img/festival-iconotitulo.svg",
     "alt": "sobre fondo azul, una espiral blanca",
@@ -71,55 +236,19 @@
         "subheading":"" ,
         "heading": "Diseño centrado en el usuario",
         "text": "Un estudio previo del público asistente fue esencial para definir la mejor propuesta en web y app. Al analizar sus necesidades, adapté la experiencia en cada dispositivo. Tuve que equilibrar funcionalidad con una interacción más arriesgada y experimental.",
-        "img": "./img/festival-dcu.webp",
-        "alt": "datos de estudio del usuario principal que asistiría al evento"
+      
+               "swiper": true,
+      "imagenes": [
+      { "src": "img/festival-user-isa.webp", "alt": "logo en versión negativo y positivo" },
+      { "src": "img/festival-user-chris.webp", "alt": "logo anterior de brillo" },
+         { "src": "img/festival-user-liza.webp", "alt": "logo anterior de brillo" }
+      ]
       }
     ]
   },
 
   {
-    "id": 3,
-    "titulo": "Brillo",
-    "icono": "./img/brillo-iconotitulo.svg",
-    "alt": "icono de brillo, una B blanca sobre fondo verde oliva",
-    "descripcion": "Dirigí la dirección de arte y el diseño web de Retiro Brillo, un evento que fusiona arte y naturaleza. Con un tono de voz dulce y auténtico, su territorio es la creatividad, y sus valores giran en torno a la naturaleza, la luminosidad y la introspección.",
-    "imgaside": "./img/thumbnail-brillo.webp",
-    "SectionClaves": [
-      {
-        "subheading":"" ,
-        "heading": "Una dirección de arte amable",
-        "text": "La identidad visual se construye a partir de dos colores principales: verde y crema, reforzando la conexión con la naturaleza. La paleta se expande en la web con tonos adicionales que evocan creatividad y calidez.",
-        "img": "./img/brillo-identidad.webp",
-        "alt": "identidad visual del proyecto brillo, logo, fotografía, landing web"
-      },
-      {
-        "subheading":"" ,
-        "heading": "Ilustración y fotografía",
-        "text": "Las ilustraciones, pintadas a mano con acrílico, aportan un toque artesanal y artístico. Se integran tanto en la web como en redes sociales, enriqueciendo la identidad visual. Para la dirección de fotografía decidí: imágenes diurnas, coloridas y capturadas con luz natural, transmitiendo frescura y vitalidad.",
-        "img": "./img/brillo-instagram.webp",
-        "alt": "historias de instagram, se han aplicado los colores de marca y la identidad visual"
-      },
-      {
-        "subheading":"" ,
-        "heading": "¡Diseño web!",
-        "text": "El lanzamiento se realizó con Webflow. Aunque en ese momento no tenía los conocimientos de desarrollo web que tengo ahora, me alegra haberme atrevido. Gracias a este proyecto, decidí formarme en diseño web.",
-        "img": "./img/brillo-pruebas.webp",
-        "alt": "pruebas de logo, color y prototipado web"
-      }
-    ], 
-
-      "creditosTitle": "Visita mi página en Webflow",
-      "creditos": [
-        {
-          "link": "https://retirobrillo.webflow.io/", 
-          "title": "Visita la web de Brillo",
-          "txt": "Web de Brillo"
-        }
-    ]
-  },
-
-  {
-    "id": 4,
+    "id": 5,
     "titulo": "Fuera de lugar",
     "icono": "./img/lugar-iconotitulo.svg",
     "alt": "una flor violeta sobre fondo grisáceo",
@@ -148,103 +277,6 @@
         "alt": "el merchandasing, vinilo, posters, bolsa de tela y camiseta por delante y detrás"
       }
     ]
-  },
-
-  {
-    "id": 5,
-    "titulo": "Mottor",
-    "icono": "./img/mottor-iconotitulo.svg",
-    "alt": "_",
-    "descripcion": "Mottor es una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar desde cualquier lugar. He seguido la metodología Design Thinking abordando las fases: observar, sintetizar, idear y diseñar.",
-    "imgaside": "./img/thumbnail-mottor.webp",
-    "SectionClaves": [
-      {
-        "subheading":"FASE OBSERVAR 1/4" ,
-        "heading": "Un nicho de mercado",
-        "text": "Tras realizar Desk research, Netnografía y analizar referentes internacionales, detecté una oportunidad en España: <strong>desarrollar una app con modelo freemium, desvinculada de autoescuelas, que ofrezca tests oficiales y una experiencia de usuario cuidada.</strong> Esta propuesta responde a quienes prefieren estudiar por su cuenta, viven en zonas remotas o no necesitan clases presenciales. Las entrevistas y encuestas me ayudaron a definir a los usuarios finales e identificar puntos de mejora.",
-        "swiper": true,
-      "imagenes": [
-      { "src": "img/mottor-dafo.webp", "alt": "Referencia 1" },
-      { "src": "img/mottor-bench.webp", "alt": "Referencia 2" },
-      { "src": "img/mottor-entrevistas.webp", "alt": "Referencia 3" },
-      { "src": "img/mottor-encuesta.webp", "alt": "Referencia 4" }
-
-    ] 
-      },
-
-      {
-        "subheading":"FASE SINTETIZAR 2/4" ,
-        "heading": "Carmen & Jorge",
-        "text": "Di forma a “Carmen”. El primer User persona que está estudiando el carnet tipo B. También a Jorge, que está opositando a bombero y estudia el carnet de camión tipo C. Realicé por cada perfil su <strong>Mapa de empatía, Customer journey y Matriz de necesidades.</strong>",
-        "swiper": true,
-      "imagenes": [
-      { "src": "img/mottor-usercarmen.webp", "alt": "Referencia 1" },
-      { "src": "img/mottor-journeycarmen.webp", "alt": "Referencia 2" },
-      { "src": "img/mottor-userjorge.webp", "alt": "Referencia 3" },
-      { "src": "img/mottor-journeyjorge.webp", "alt": "Referencia 4" }
-
-    ]
-  
-      },
-
-      {
-        "subheading":"FASE IDEAR 3/4" ,
-        "heading": "Propuesta de valor",
-        "text": "Después de analizar <strong>Findings e Insights</strong>, realicé el cluster y fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a la <strong>propuesta de valor:</strong> una app que te prepara para aprobar el teórico a la primera, con test oficiales, seguimiento de progreso, mensajes de motivación y total libertad para estudiar en remoto.",
-            "swiper": true,
-      "imagenes": [
-      { "src": "img/mottor-insights.webp", "alt": "Referencia 1" },
-      { "src": "img/mottor-moscow.webp", "alt": "Referencia 2" },
-      { "src": "img/mottor-propvalor.webp", "alt": "Referencia 3" }
-    ]
-      }, 
-
-      {
-        "subheading":"FASE DISEÑAR 4/4" ,
-        "heading": "Encendiendo mottores",
-        "text": "Arranqué con el <strong>site map, flow charts y wireframes</strong>. Después de realizar el prototipo mid-fi, lancé mi primera interacción con <strong>Maze:</strong> relicé cambios en el UX-writing que mejoraron la usabilidad. Cerré esta fase configurando el <strong>sistema de diseño</strong>.",
-         "swiper": true,
-      "imagenes": [
-      { "src": "img/mottor-sitemap.webp", "alt": "Referencia 1" },
-      { "src": "img/mottor-flowchart.webp", "alt": "Referencia 2" },
-      { "src": "img/mottor-wireframes.webp", "alt": "Referencia 3" },
-      { "src": "img/mottor-test.webp", "alt": "Referencia 4" },
-       { "src": "img/mottor-variables.webp", "alt": "Referencia 4" }
-          ]      
-        }, 
-
-      {
-        "subheading":"EL RESULTADO" ,
-        "heading": "¡Estamos en ruta!",
-        "text": "La app se compone de una pantalla Inicio con accesos directos a las funcionalidades más importantes y una barra de navegación  que comunica con las secciones: [ <strong>Ruta:</strong> el plan de estudios generado por IA adaptado a fecha de examen ] — [ <strong>Tests:</strong> para practicar la teoría de diferentes maneras ] — [ <strong>Perfil:</strong> para configurar las preferencias del usuario ]. <br> <strong> <u> <a href='https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428' target='_blank' rel='noopener noreferrer'> Interactúa con el prototipo -> aquí. </a> </u> </strong>",
-        "multiple": true,
-         "imagenes": [
-      { "src": "img/mottor-prototipoinicio.webp", "alt": "Referencia 1" },
-      { "src": "img/mottor-prototipoexamen.webp", "alt": "Referencia 2" },
-        { "src": "img/mottor-feedback.webp", "alt": "Referencia 2" },
-          { "src": "img/mottor-web.webp", "alt": "Referencia 2" }
-          ]    
-      }, 
-
-      {
-        "subheading":"CONCLUSIONES" ,
-        "heading": "La importancia de discernir",
-        "text": "Seguir la metodología <strong>Design Thinking</strong> me ha ayudado a no perder el foco y a tomar decisiones basadas en la investigación. No me he limitado a diseñar y ya, si no que he discernido constantemente: qué podía ser útil y necesario para el usuario, qué podía mejorar según los principios de <strong>Nielsen</strong> y cómo podía conectar al usuario con la marca usando herramientas como <strong>UX writing</strong> o conceptos propios de la temática. ¡Me hubiera encantado prepararme el examen con una app así! <strong>:)</strong>",
-        "img": false
-      }
-      
-    ],
-
-     "creditosTitle": "Interactúa con <br> el prototipo",
-      "creditos": [
-        {
-          "link": "https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428", 
-          "title": "Ver prototipo",
-          "txt": "Ver prototipo <br> en Figma"
-        }
-    ]
-    
-
-    
   }
+
 ]
