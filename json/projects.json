@@ -169,9 +169,9 @@
         "text": "Las <strong>ilustraciones analógicas</strong>, pintadas con acrílico, aportan un toque artesanal y artístico. Para la <strong>dirección de fotografía</strong> saqué imágenes diurnas y coloridas, transmitiendo frescura y vitalidad. Apliqué estos resultados en la web y las <a href='https://www.instagram.com/stories/highlights/18060815005573146/' target='_blank' rel='noopener noreferrer'> <strong>historias de instagram :)</strong> </a> ",
            "swiper": true,
       "imagenes": [
-      { "src": "img/brillo-ilustraciones.webp", "alt": "logo en versión negativo y positivo" },
-      { "src": "img/brillo-instagram.webp", "alt": "logo anterior de brillo" },
-      { "src": "img/brillo-fotos.webp", "alt": "otra prueba de logo" }
+      { "src": "img/brillo-ilustraciones.webp", "alt": "ilustraciones analógicas" },
+      { "src": "img/brillo-instagram.webp", "alt": "pantallas de stories de Instagram" },
+      { "src": "img/brillo-fotos.webp", "alt": "fotografías" }
       ]
       },
       {
@@ -180,8 +180,8 @@
         "text": " <a href='https://retirobrillo.webflow.io/' target='_blank' rel='noopener noreferrer'> <strong>Diseñé esta web con Webflow. </strong> </a> Primeramente usé componentes de <strong>Relume</strong> para ayudarme a estructurar la landing y agilizar el proceso. También hice pruebas de color y fui refinando el copy.",
                "swiper": true,
       "imagenes": [
-      { "src": "img/brillo-web.webp", "alt": "logo en versión negativo y positivo" },
-      { "src": "img/brillo-relume.webp", "alt": "logo anterior de brillo" }
+      { "src": "img/brillo-web.webp", "alt": "web de brillo" },
+      { "src": "img/brillo-relume.webp", "alt": "estructura de la landing" }
       ]
       },
 
@@ -221,30 +221,50 @@
       {
         "subheading":"" ,
         "heading": "Soluciones nicho para un nicho de diseñadores",
-        "text": "La comunicación gráfica está pensada específicamente para el público de Item: los motion designers. Para el diseño del festival, tomé como referencia los softwares de motion graphics, integrando símbolos, jerarquías y elementos de interacción inspirados en estas herramientas.",
-        "img": "./img/festival-desktop.webp",
-        "alt": "diseños web para la home y la página de información sobre el festival"
+        "text": "La comunicación gráfica está pensada específicamente para el público de Item: los <strong>motion designers</strong> . Para el diseño del festival, tomé como referencia los softwares de motion graphics, integrando símbolos, jerarquías y elementos de interacción inspirados en estas herramientas.",
+         "swiper": true,
+      "imagenes": [
+      { "src": "img/festival-desktop.webp", "alt": "menu de navegación de la web" },
+      { "src": "img/festival-programacion.webp", "alt": "pantalla de la programación del festival en versión web" },
+      { "src": "img/festival-mapa.webp", "alt": "pantalla del mapa del festival en versión web" }
+      ]
       },
       {
         "subheading":"" ,
         "heading": "Dispositivos diferentes, objetivos distintos",
-        "text": "La web del festival permite acceder al programa, consultar el mapa del recinto y obtener información clave. En cambio, la app está diseñada para que los asistentes gestionen su acceso al evento, revisen sus inscripciones o se apunten a nuevas actividades.",
-        "img": "./img/festival-dispositivos.webp",
-        "alt": "diseños web adaptado a ipad y varios diseños de la app"
+        "text": "La <strong>web</strong>  del festival permite acceder al programa, consultar el mapa del recinto y obtener información clave. En cambio, la <strong>app</strong>  está diseñada para que los asistentes gestionen su acceso al evento, revisen sus inscripciones o se apunten a nuevas actividades.",  
+        "swiper": true,
+           "imagenes": [
+      { "src": "img/festival-ipad.webp", "alt": "pantalla de los ponentes en versión ipad" },
+      { "src": "img/festival-mobile.webp", "alt": "tres pantallas mobile" }
+      ]
       },
       {
         "subheading":"" ,
-        "heading": "Diseño centrado en el usuario",
-        "text": "Un estudio previo del público asistente fue esencial para definir la mejor propuesta en web y app. Al analizar sus necesidades, adapté la experiencia en cada dispositivo. Tuve que equilibrar funcionalidad con una interacción más arriesgada y experimental.",
+        "heading": "Diseño centrado <br> en el usuario",
+        "text": "Un estudio previo del público asistente fue esencial para definir la mejor propuesta en web y app. Hay tres tipos de usuario, con su respectiva entrada: entrada pro, entrada de estudiante y de ponente. Si ITEM fuese un arquetipo, sería el <strong>arquetipo visionario</strong>.",
       
                "swiper": true,
       "imagenes": [
-      { "src": "img/festival-user-isa.webp", "alt": "logo en versión negativo y positivo" },
-      { "src": "img/festival-user-chris.webp", "alt": "logo anterior de brillo" },
-         { "src": "img/festival-user-liza.webp", "alt": "logo anterior de brillo" }
+              { "src": "img/festival-user-archetype.webp", "alt": "arquetipo visionario" },
+
+      { "src": "img/festival-user-isa.webp", "alt": "user persona del pase pro" },
+      { "src": "img/festival-user-chris.webp", "alt": "user persona del pase estudiante" },
+         { "src": "img/festival-user-liza.webp", "alt": "user persona del pase ponente" }, { "src": "img/festival-entradas.webp", "alt": "tres tipos de entradas" }
       ]
+      },
+
+         {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "Juego en movimiento",
+        "text": "Mi intención fue desarrollar una comunicación visual alineada con el <strong> universo estético</strong>  de los motion designers. Aunque tanto la interfaz como el branding tienen un punto arriesgado y experimental, procuré mantener siempre un <strong>equilibrio<strong>  para no sacrificar la funcionalidad en la navegación de la app.",
+        "img": false
       }
     ]
+
+    
+
+ 
   },
 
   {
