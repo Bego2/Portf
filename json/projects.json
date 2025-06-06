@@ -132,7 +132,7 @@
      "creditosTitle": "Interactúa con <br> el prototipo",
       "creditos": [
         {
-          "link": "https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428", 
+          "link": "https://www.figma.com/proto/vl79WrWszqYT90flsqVcC5/%F0%9F%9A%97-App-Mottor---Bego%C3%B1a-C?node-id=589-3428&t=S8mjAhLwdEpfpMXH-1&scaling=scale-down&content-scaling=fixed&page-id=589%3A3303&starting-point-node-id=589%3A3428' target='_blank' rel='noopener noreferrer", 
           "title": "Ver prototipo",
           "txt": "Ver prototipo <br> en Figma"
         }
@@ -297,6 +297,103 @@
         "alt": "el merchandasing, vinilo, posters, bolsa de tela y camiseta por delante y detrás"
       }
     ]
+  },
+
+  
+  {
+    "id": 6,
+    "titulo": "Tropa",
+    "icono": "./img/tropa-iconotitulo.svg",
+    "alt": "_",
+    "descripcion": "Tropa conecta a personas creativas que buscan colaborar, formar colectivos o simplemente vivir el arte en compañía a través de eventos y experiencias culturales. He seguido la metodología Design Thinking abordando las fases: observar, sintetizar, idear y diseñar.",
+    "imgaside": "./img/thumbnail-tropa.webp",
+    "SectionClaves": [
+      {
+        "subheading":"FASE OBSERVAR 1/4" ,
+        "heading": "Abundancia creativa",
+        "text": "Tras realizar el desk research y la netnografía, identifiqué un cambio clave en el panorama creativo: la democratización del arte ha hecho que cada vez más personas exploren intereses artísticos, aunque no se definan como artistas. Esto abre la puerta a un público creciente que busca conectar con otros perfiles afines, ya sea para compartir experiencias, aprender y mejorar, o incluso con fines profesionales o comerciales (clientes, socios, proyectos). Fue gracias a la encuesta que pude descubrir valiosos insights.",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-dafo.webp", "alt": "cuadrante dafo" },
+      { "src": "img/tropa-bench.webp", "alt": "benchmarking" }
+    ] 
+      },
+
+      {
+        "subheading":"FASE SINTETIZAR 2/4" ,
+        "heading": "Jimena & Índigo",
+        "text": "Di forma a “Jimena”, una user persona que busca crear un colectivo para desarrollar un proyecto audiovisual. El segundo user persona es Índigo, un perfil más amateur y relajado, busca amistades afines fuera de su círculo para disfrutar de planes creativos. Realicé por cada perfil su Mapa de empatía, Customer journey y Matriz de necesidades.",
+        "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-jimena.webp", "alt": "user persona jimena" },
+      { "src": "img/tropa-mapajimena.webp", "alt": "mapa de empatía jimena" },
+      { "src": "img/tropa-journeyjimena.webp", "alt": "customer journey jimena" },
+      { "src": "img/tropa-indigo.webp", "alt": "user persona índigo" },
+      { "src": "img/tropa-mapaindigo.webp", "alt": "mapa de empatía índigo" },
+      { "src": "img/tropa-journeyindigo.webp", "alt": "customer journey índigo" }
+    ]
+  
+      },
+
+      {
+        "subheading":"FASE IDEAR 3/4" ,
+        "heading": "Propuesta de valor",
+        "text": "Durante esta fase tuve en cuenta los findings e insights, fui categorizando las funcionalidades por orden de viabilidad y prioridad. Finalmente llegué a mi propuesta de valor: una app que facilita la conexión entre personas creativas, ayudándolas a encontrar colaboradores, formar amistades artísticas y descubrir experiencias culturales.",
+            "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-insights.webp", "alt": "findings e insights" },
+      { "src": "img/tropa-matriz.webp", "alt": "matriz de viabilidad" },
+      { "src": "img/tropa-ins.webp", "alt": "ins and outs" },
+      { "src": "img/tropa-moscow.webp", "alt": "cuadrante moscow" },
+      { "src": "img/tropa-propvalor.webp", "alt": "propuesta de valor" }
+
+    ]
+      }, 
+
+      {
+        "subheading":"FASE DISEÑAR 4/4" ,
+        "heading": "Celebración creativa",
+        "text": "La Danza de Matisse es una obra icónica que encarna los valores fundamentales de Tropa: la unión entre personas y la celebración de la creatividad compartida. Esta referencia artística se traduce visualmente en el logotipo y en la elección cromática: una paleta de tonos complementarios donde el naranja irradia dinamismo y energía creativa, mientras que el azul aporta equilibrio y serenidad. Para reforzar la accesibilidad y cercanía de la marca, opté por una tipografía sans-serif contemporánea, clara y amigable.",
+         "swiper": true,
+      "imagenes": [
+      { "src": "img/tropa-inspo.webp", "alt": "Inspiración en La danza, de Henri Matisse" },
+      { "src": "img/tropa-wireframes.webp", "alt": "wireframes" },
+      { "src": "img/tropa-wireframes-descartados.webp", "alt": "wireframes descartados" }
+
+          ]      
+        }, 
+
+      {
+        "subheading":"EL RESULTADO" ,
+        "heading": "Conectando creativos",
+        "text": "La app se compone de una pantalla Inicio con accesos directos a las funcionalidades más importantes como tus eventos próximos, eventos sugeridos, algoritmo de recomendación de creativos con los que hacer match. La barra de navegación comunica con las secciones de: [Comunidad: foro y acceso colectivos] [Buscador: de eventos y miembros] [Calendario: donde gestionar reuniones y planes]. <strong> <a href='https://www.figma.com/proto/CgPE2OQIREvP4PRe0ZYbdV/%F0%9F%91%8B%F0%9F%8F%BC-App-Tropa---Bego%C3%B1a-C?node-id=215-4125&starting-point-node-id=215%3A4125&t=i35WggrxXOuq556N-1&fuid=1428781731922199111' target='_blank' rel='noopener noreferrer'> Interactúa con el prototipo -> aquí. </a></strong>",
+        "multiple": true,
+         "imagenes": [
+      { "src": "img/tropa-prototipo.webp", "alt": "prototipo, pantallas generales" },
+      { "src": "img/tropa-prototiposec.webp", "alt": "prototipo, " }
+          ]    
+      }, 
+
+      {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "La importancia de discernir",
+        "text": "Como un cuadro trabajado con paciencia, esta app fue tomando forma capa a capa. Primero, me aseguré de que resolviera una necesidad real; luego pulí la experiencia para que fuera clara y fluida; y, finalmente, añadí la capa más delicada: la conexión emocional. El proceso fue enriquecedor no solo por el resultado, sino por las conversaciones generadas. Varias personas agradecieron que pensara en una herramienta que fomenta el apoyo mutuo dentro del ámbito creativo. Me encantaría ver Tropa en el mundo real, funcionando como lo imaginé: una app que acompaña, conecta y se siente auténtica.",
+        "img": false
+      }
+      
+    ],
+
+     "creditosTitle": "Interactúa con <br> el prototipo",
+      "creditos": [
+        {
+          "link": "https://www.figma.com/proto/CgPE2OQIREvP4PRe0ZYbdV/%F0%9F%91%8B%F0%9F%8F%BC-App-Tropa---Bego%C3%B1a-C?node-id=215-4125&starting-point-node-id=215%3A4125&t=i35WggrxXOuq556N-1&fuid=1428781731922199111' target='_blank' rel='noopener noreferrer", 
+          "title": "Ver prototipo",
+          "txt": "Ver prototipo <br> en Figma"
+        }
+    ]
+    
+
+    
   }
 
 ]
