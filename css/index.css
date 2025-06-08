@@ -80,7 +80,7 @@
 }
 
 .Proyecto-title {
-  font-size: var(--font-size-heading-md);
+  font-size: 1.125rem;
   font-weight: bold;
   letter-spacing: var(--letter-spacing);
 }
@@ -91,27 +91,30 @@
 }
 
 .Proyecto-subtit {
-  font-size: var(--font-size-parrafo);
+  font-size: 1rem;
   margin: 0.5rem 0rem 0.5rem;
   word-wrap: break-word;
 }
 
 .Proyecto-tags {
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  gap: 0.6rem;
-  font-weight: bold;
-  letter-spacing: 0.5px;
+        margin-top: 0.6rem;
+        gap: 1rem;
+
 
 }
 
 .Proyecto-tag {
-  border-radius: 1.4rem;
+  display: flex;
+  align-items: center;
+  border-radius:2rem;
   padding: 0.5rem 0.8rem;
-  margin: 0.5rem 0 0 0;
   font-size: 0.7rem;
+  font-weight: bold;
+  letter-spacing: 0.3px;
 }
+
+
 
 /* ___________________________  
        CARDS INDIVIDUALES      
@@ -161,14 +164,14 @@
 }
 
 /* Proyecto TROPA */
-.Proyecto--prox {
-  background-color: #656565;
+.Proyecto--tropa {
+  background-color: #5f2626;
   color: var(--color-secondary);
 }
 
-.Proyecto-tag--prox {
-  background-color: #dedede;
-  color: black;
+.Proyecto-tag--tropa {
+  background-color: #8f4c4c;
+  color: var(--color-secondary);
 
 }
 
@@ -277,6 +280,8 @@
 
   .Proyecto-tag {
     font-size: 0.9rem;
+    display: flex;
+     gap: 0rem 0.6rem;
   }
 }
 
@@ -322,11 +327,13 @@
   }
 
   .Proyecto-tags {
-    gap: 1rem;
+    display: flex;
+    margin-top: 0.6rem ;
   }
 
   .Proyecto-tag {
-    font-size: 1rem;
+    font-size: .75rem;
+    max-width: 70%;
   }
 }
 
@@ -382,7 +389,8 @@
   }
 
   .Proyecto-tags {
-    gap: 1rem;
+    display: flex;
+    margin-top: 0.8rem ;
   }
   .Proyecto-tag {
     margin: 1rem 0 0 0;
