@@ -367,29 +367,48 @@
     "titulo": "Fuera de lugar",
     "icono": "./img/lugar-iconotitulo.svg",
     "alt": "una flor violeta sobre fondo grisáceo",
-    "descripcion": "¿Cómo sería acompañar a un artista en el lanzamiento de un disco? Desde los primeros singles hasta el álbum final, pasando por Spotify Canvas, redes sociales, diseño de vinilo y merchandising. Así interpreté Fuera de lugar, el disco de Kora, bajo mi propia óptica.",
+    "descripcion": "¿Cómo sería conceptualizar y crear la gráfica para el lanzamiento de un disco? Desde los primeros singles hasta el álbum final, pasando por Spotify Canvas, diseño de vinilo y merchandising. Así interpreté Fuera de lugar, el disco de Kora, bajo mi propia óptica.",
     "imgaside": "./img/thumbnail-lugar.webp",
     "SectionClaves": [
       {
         "subheading":"" ,
         "heading": "Emociones a flor de piel",
-        "text": "Al escuchar el disco y analizar sus letras en profundidad, identifiqué emociones clave: el pasado, lo inadecuado, el dolor y la sensibilidad. Basándome en la teoría del color de Eva Heller, extraje una paleta cromática que reflejara estas sensaciones.",
+        "text": "Al escuchar el disco y analizar sus letras en profundidad, identifiqué <strong>conceptos clave</strong>: el pasado, lo inadecuado, el dolor y la sensibilidad. Basándome en el libro 'Teoría del color' de </strong>Eva Heller</strong>, extraje una paleta cromática que reflejara estas sensaciones.",
         "img": "./img/lugar-identidad.webp",
         "alt": "tipografía sans serif, colores pastel y texturas granuladas usadas en el proyecto"
       },
       {
         "subheading":"" ,
-        "heading": "Internet y música",
-        "text": "La forma en que hoy en día se lanzan discos me llevó a diseñar las portadas de los singles como adelantos del álbum, asegurando una coherencia gráfica en todo el proyecto.",
-        "img": "./img/lugar-spotify.webp",
-        "alt": "las portadas de los singles del disco fuera de lugar"
+        "heading": "Internet, identidad y música",
+        "text": "Lanzar los <strong>singles como adelantos de un álbum</strong> es una práctica común en la industria musical actual. Esta estrategia capta la atención del público de forma progresiva y aumenta las escuchas antes del lanzamiento completo. Por eso, diseñé todas las portadas con una coherencia gráfica sólida. Además, desarrollé el <strong>Spotify Canvas</strong>, una animación breve que acompaña la escucha y capta la atención del usuario.",
+          "multiple": true,
+        "imagenes": [
+        { "src": "img/lugar-singles.webp", "alt": "los tres singles en la interfaz de spotify" },
+        { "src": "img/lugar-disco.webp", "alt": "el album visto en ipad y movil en la interfaz de spotify" },
+        { "src": "img/lugar-spotifycanvas.webm", "alt": "spotify canvas en movimiento" }
+
+    
+        ]
       },
       {
         "subheading":"" ,
         "heading": "Lo tangible sigue siendo importante",
-        "text": "El diseño no se quedó solo en lo digital. Creé diferentes piezas de merchandising, desde el vinilo y pósters hasta una camiseta y una bolsa de tela para transportarlo todo :)",
-        "img": "./img/lugar-merch.webp",
-        "alt": "el merchandasing, vinilo, posters, bolsa de tela y camiseta por delante y detrás"
+        "text": "El diseño no se quedó solo en lo digital. Realicé diferentes piezas de <strong>merchandising</strong>: el vinilo, pósters, una camiseta y una bolsa de tela para transportarlo todo :)",
+         "multiple": true,
+          "imagenes": [
+        { "src": "img/lugar-vinilomov.webm", "alt": "vinilo mockup en movimiento" },
+        { "src": "img/lugar-vinilo.webp", "alt": "vinilo estático, parte delantera y trasera" },
+        { "src": "img/lugar-camiseta.webp", "alt": "camiseta merchan, parte delantera y trasera" },
+        { "src": "img/lugar-totebag.webp", "alt": "totebag" },
+          { "src": "img/lugar-poster.webp", "alt": "dos posters del disco" }
+        ]
+      },
+
+       {
+        "subheading":"APRENDIZAJES" ,
+        "heading": "Últimos acordes",
+        "text": "Uno de los mayores retos fue definir el proyecto desde cero, sin referentes claros, y aprender a investigar guiada por la curiosidad, entrevistando a personas desconocidas para afinar el enfoque. Ha sido un proceso que me ha hecho crecer, tanto a nivel personal como profesional, y que me ha reafirmado en algo importante: <strong>me apasiona comunicar de forma global y estratégica</strong>. <br><br> Todo el universo gráfico (paleta, tipografía, ilustración) se construyó desde el <strong>análisis</strong>, pero también desde la <strong>intuición</strong> y la <strong>sensibilidad</strong>. El resultado es una identidad visual coherente, con fuerza digital y pensada para acompañar con autenticidad a una artista emergente.",
+        "img": false
       }
     ]
   }

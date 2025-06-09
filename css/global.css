@@ -53,6 +53,10 @@ img, picture, video, iframe, figure {
   object-position: center center;
 }
 
+video {
+  border-radius: var(--border-radius-img);
+}
+
 /* Enlaces me funcionarán como cajas (block) salvo los enlaces que están dentro de párrafos (inline) */
 a {
   display: block;

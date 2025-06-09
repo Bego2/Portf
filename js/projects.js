@@ -98,32 +98,41 @@ if (seccion.swiper && seccion.imagenes) {
   imagenHTML = `
     <div class="Swiper swiper">
       <div class="swiper-wrapper">
-        ${seccion.imagenes.map(img => `
-          <div class="swiper-slide Swiper-slide">
-            <picture>
-              <img src="${img.src}" alt="${img.alt}" loading="lazy" class="Swiper-img">
-            </picture>
-          </div>`).join('')}
+       ${seccion.imagenes.map(img => {
+  const isVideo = img.type === 'video/webm' || img.src.endsWith('.webm');
+  return `
+    <div class="swiper-slide Swiper-slide">
+      ${
+        isVideo
+          ? `<video class="Swiper-video" src="${img.src}" autoplay loop muted playsinline></video>`
+          : `<picture><img src="${img.src}" alt="${img.alt}" loading="lazy" class="Swiper-img"></picture>`
+      }
+    </div>
+  `;
+}).join('')}
       </div>
       <div class="swiper-pagination Swiper-pagination"></div>
     </div>`;
 } else if (seccion.multiple && seccion.imagenes) {
   imagenHTML = `
     <div class="Section-multipleImages">
-      ${seccion.imagenes.map(img => `
-        <picture>
-          <img src="${img.src}" alt="${img.alt}" loading="lazy" class="SectionClave-img">
-        </picture>`).join('')}
+      ${seccion.imagenes.map(img => {
+        const isVideo = (img.type && img.type.startsWith('video')) || img.src.endsWith('.webm');
+        return isVideo
+          ? `<video class="Section-video" src="${img.src}" autoplay loop muted playsinline></video>`
+          : `<picture><img src="${img.src}" alt="${img.alt}" loading="lazy" class="SectionClave-img"></picture>`;
+      }).join('')}
     </div>`;
 } else if (seccion.img) {
-  imagenHTML = `
-    <div class="Section-imgContainer">
-      <picture>
-        <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
-      </picture>
-    </div>`;
+  const isVideo = seccion.img.endsWith('.webm');
+  imagenHTML = isVideo
+    ? `<video class="Section-video" src="${seccion.img}" autoplay loop muted playsinline></video>`
+    : `<div class="Section-imgContainer">
+         <picture>
+           <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
+         </picture>
+       </div>`;
 }
-
 
 
 
