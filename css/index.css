@@ -34,7 +34,7 @@
  ________________________ */
 
 .Proyectos {
-  padding: 3rem var(--padding);
+  padding: 3rem;
 }
 
 .Proyectos-title {
@@ -45,7 +45,7 @@
 }
 
 .Proyectos-grid {
-  margin: auto 0 0 0;
+  margin: 0 auto;
   display: grid;
   grid-template-columns: 1fr;
   gap: 2.5rem;
@@ -60,7 +60,6 @@
 }
 
 .Proyecto:hover {
-  /* filter: brightness(1.3); */
   transform: scale(1.05);
 }
 
@@ -96,12 +95,10 @@
   word-wrap: break-word;
 }
 
-.Proyecto-tags {
-  display: flex;
-        margin-top: 0.6rem;
-        gap: 1rem;
-
-
+.Proyecto-tags {      
+ display: flex;
+ flex-wrap: wrap;  
+ gap: 0.5rem;
 }
 
 .Proyecto-tag {
@@ -112,15 +109,15 @@
   font-size: 0.7rem;
   font-weight: bold;
   letter-spacing: 0.3px;
+  white-space: normal; /* permitir que se rompan si es necesario */
+  word-break: break-word;
 }
-
+ 
 
 
 /* ___________________________  
        CARDS INDIVIDUALES      
  ___________________________ */
-
-/* Pd. Único lugar donde no se han aplicado custom properties para el color */
 
 /* Proyecto STEEZ */
 .Proyecto--steez {

@@ -1,3 +1,5 @@
+
+
 fetch('./json/projects.json')
   .then(response => {
     if (!response.ok) throw new Error('Error al cargar el archivo JSON');
@@ -14,13 +16,14 @@ fetch('./json/projects.json')
     document.getElementById('mainContainer').innerHTML = html;
 document.querySelectorAll('.Swiper').forEach(swiperEl => {
   const swiperInstance = new Swiper(swiperEl, {
-    loop: true,
-    pagination: {
-      el: swiperEl.querySelector('.swiper-pagination'),
-      clickable: true
-    },
-    spaceBetween: 20
-  });
+  loop: true,
+  zoom: true,
+  pagination: {
+    el: swiperEl.querySelector('.swiper-pagination'),
+    clickable: true
+  },
+  spaceBetween: 20
+});
 
   swiperEl.addEventListener('mousemove', (e) => {
     const rect = swiperEl.getBoundingClientRect();
@@ -92,49 +95,51 @@ function renderSecciones(proyecto) {
         </div>
       </div>`;
 
-let imagenHTML = '';
+    let imagenHTML = '';
 
-if (seccion.swiper && seccion.imagenes) {
-  imagenHTML = `
-    <div class="Swiper swiper">
-      <div class="swiper-wrapper">
-       ${seccion.imagenes.map(img => {
-  const isVideo = img.type === 'video/webm' || img.src.endsWith('.webm');
-  return `
-    <div class="swiper-slide Swiper-slide">
-      ${
-        isVideo
-          ? `<video class="Swiper-video" src="${img.src}" autoplay loop muted playsinline></video>`
-          : `<picture><img src="${img.src}" alt="${img.alt}" loading="lazy" class="Swiper-img"></picture>`
-      }
-    </div>
-  `;
-}).join('')}
-      </div>
-      <div class="swiper-pagination Swiper-pagination"></div>
-    </div>`;
-} else if (seccion.multiple && seccion.imagenes) {
-  imagenHTML = `
-    <div class="Section-multipleImages">
-      ${seccion.imagenes.map(img => {
-        const isVideo = (img.type && img.type.startsWith('video')) || img.src.endsWith('.webm');
-        return isVideo
-          ? `<video class="Section-video" src="${img.src}" autoplay loop muted playsinline></video>`
-          : `<picture><img src="${img.src}" alt="${img.alt}" loading="lazy" class="SectionClave-img"></picture>`;
-      }).join('')}
-    </div>`;
-} else if (seccion.img) {
-  const isVideo = seccion.img.endsWith('.webm');
-  imagenHTML = isVideo
-    ? `<video class="Section-video" src="${seccion.img}" autoplay loop muted playsinline></video>`
-    : `<div class="Section-imgContainer">
-         <picture>
-           <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
-         </picture>
-       </div>`;
-}
-
-
+    if (seccion.swiper && seccion.imagenes) {
+      imagenHTML = `
+        <div class="Swiper swiper">
+          <div class="swiper-wrapper">
+            ${seccion.imagenes.map(img => {
+              const isVideo = img.type === 'video/webm' || img.src.endsWith('.webm');
+              return `
+                <div class="swiper-slide Swiper-slide">
+                  ${
+                    isVideo
+                      ? `<video class="Swiper-video" src="${img.src}" autoplay loop muted playsinline></video>`
+                      : `<div class="swiper-zoom-container">
+                          <picture>
+                            <img src="${img.src}" alt="${img.alt}" loading="lazy" class="Swiper-img" />
+                          </picture>
+                        </div>`
+                  }
+                </div>
+              `;
+            }).join('')}
+          </div>
+          <div class="swiper-pagination Swiper-pagination"></div>
+        </div>`;
+    } else if (seccion.multiple && seccion.imagenes) {
+      imagenHTML = `
+        <div class="Section-multipleImages">
+          ${seccion.imagenes.map(img => {
+            const isVideo = (img.type && img.type.startsWith('video')) || img.src.endsWith('.webm');
+            return isVideo
+              ? `<video class="Section-video" src="${img.src}" autoplay loop muted playsinline></video>`
+              : `<picture><img src="${img.src}" alt="${img.alt}" loading="lazy" class="SectionClave-img"></picture>`;
+          }).join('')}
+        </div>`;
+    } else if (seccion.img) {
+      const isVideo = seccion.img.endsWith('.webm');
+      imagenHTML = isVideo
+        ? `<video class="Section-video" src="${seccion.img}" autoplay loop muted playsinline></video>`
+        : `<div class="Section-imgContainer">
+             <picture>
+               <img class="SectionClave-img" src="${seccion.img}" alt="${seccion.alt}" loading="lazy">
+             </picture>
+           </div>`;
+    }
 
     return `
       <section class="SectionClave">
@@ -143,7 +148,6 @@ if (seccion.swiper && seccion.imagenes) {
       </section>`;
   }).join('') || '';
 }
-
 
 
 //Función para créditos
