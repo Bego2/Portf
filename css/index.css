@@ -34,7 +34,7 @@
  ________________________ */
 
 .Proyectos {
-  padding: 3rem;
+  padding: 3rem 1rem;
 }
 
 .Proyectos-title {
@@ -91,20 +91,21 @@
 
 .Proyecto-subtit {
   font-size: 1rem;
-  margin: 0.5rem 0rem 0.5rem;
+  margin: 0.5rem 0rem 0.8rem 0.5rem;
   word-wrap: break-word;
 }
 
-.Proyecto-tags {      
- display: flex;
- flex-wrap: wrap;  
- gap: 0.5rem;
+.Proyecto-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  max-width: 85%;
 }
 
 .Proyecto-tag {
   display: flex;
   align-items: center;
-  border-radius:2rem;
+  border-radius: 2rem;
   padding: 0.5rem 0.8rem;
   font-size: 0.7rem;
   font-weight: bold;
@@ -112,8 +113,6 @@
   white-space: normal; /* permitir que se rompan si es necesario */
   word-break: break-word;
 }
- 
-
 
 /* ___________________________  
        CARDS INDIVIDUALES      
@@ -169,22 +168,21 @@
 .Proyecto-tag--tropa {
   background-color: #8f4c4c;
   color: var(--color-secondary);
-
 }
 
 /* Proyecto MOTTOR */
 .Proyecto--mottor {
-  background-color: #014ABF;
+  background-color: #014abf;
   color: var(--color-secondary);
 }
 
 .Proyecto-tag--mottor {
   background-color: #1464e5;
   color: var(--color-secondary);
-
 }
 
-.Proyectoo { /* volver a poner Proyecto */
+.Proyectoo {
+  /* volver a poner Proyecto */
   border-radius: var(--border-radius-img);
   display: flex;
   flex-direction: column;
@@ -235,6 +233,10 @@
   .Proyectos {
     padding: 3rem;
   }
+ .Proyecto-tags {
+       max-width: 70%;
+  }
+ 
 
   .Proyecto-tag {
     font-size: 0.8rem;
@@ -278,7 +280,8 @@
   .Proyecto-tag {
     font-size: 0.9rem;
     display: flex;
-     gap: 0rem 0.6rem;
+    gap: 0rem 0.6rem;
+    max-width: 100%;
   }
 }
 
@@ -299,16 +302,14 @@
     clip-path: inset(0 0 10px 0);
   }
 
-  
   .Hero-titulo {
     font-size: 1.4rem;
     padding: 6rem 2rem 1rem;
   }
-  
+
   .Hero {
     height: auto;
   }
-
 
   .Proyectos {
     padding: 3.2rem 2rem 4rem;
@@ -325,12 +326,12 @@
 
   .Proyecto-tags {
     display: flex;
-    margin-top: 0.6rem ;
+    margin-top: 0.6rem;
+    max-width: 100%;
   }
 
   .Proyecto-tag {
-    font-size: .75rem;
-    max-width: 70%;
+    font-size: 0.75rem;
   }
 }
 
@@ -387,7 +388,8 @@
 
   .Proyecto-tags {
     display: flex;
-    margin-top: 0.8rem ;
+    margin-top: 0.8rem;
+    max-width: 100%;
   }
   .Proyecto-tag {
     margin: 1rem 0 0 0;

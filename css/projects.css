@@ -97,8 +97,8 @@
   position: relative;
   width: 100%;
   overflow: hidden;
-  padding-bottom: 3rem;
-}
+  padding-bottom: 2.2rem;
+  }
 
 .Swiper-img {
   width: 100%;
@@ -253,6 +253,10 @@
   border-radius: 1.125rem;
   }
 
+  .Swiper {
+  padding-bottom: 3rem;
+  }
+
   .swiper-pagination-bullet {
   width: 0.65rem;
   height: 0.65rem;
@@ -313,6 +317,11 @@
     width: 4rem;
     height: 4rem;
   } 
+
+  
+  .Swiper {
+  padding-bottom: 3rem;
+  }
 
   .swiper-pagination-bullet {
   width: 0.75rem;
